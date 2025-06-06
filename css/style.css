@@ -25,9 +25,9 @@ a {
 
 .main-header {
   width: 900px;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .header-navigation {
@@ -43,7 +43,7 @@ a {
   padding-right: 10px;
 }
 
-.header-navigation {
+.header-navigation__list {
   display: flex;
   margin: 0;
   padding: 0;
@@ -53,17 +53,22 @@ a {
 }
 
 .header-navigation__item {
+  position: relative;
+}
+
+.header-navigation__item--link {
+  display: block;
   padding-top: 5px;
   padding-right: 14px;
   padding-bottom: 5px;
   padding-left: 14px;
 }
 
-.header-navigation__item--link {
+.underline {
   border-bottom: 1px solid rgba(256, 256, 256, 0.5);
 }
 
-.catalog-menu-list {
+.cat-navigation {
   display: none;
 }
 
@@ -71,6 +76,8 @@ a {
   display: flex;
   margin: 0;
   padding: 0;
+  gap: 10px;
+  padding-top: 12px;
   list-style: none;
 }
 
@@ -80,9 +87,15 @@ a {
 
 .user-navigation__link {
   display: block;
+  position: relative;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   border-radius: 16px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
   background-color: rgba(256, 256, 256, 0.5);
 }
 
@@ -98,8 +111,46 @@ a {
   top: 0;
   right: 0;
   display: block;
+  width: 32px;
+  height: 32px;
   content: "";
-  background-image: url("/img/loupe.svg");
+  background-image: url("/img/section-1/loupe.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.user-navigation__link--login {
+  padding-right: 16px;
+  padding-left: 44px;
+}
+
+.user-navigation__link--login::after {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  content: "";
+  background-image: url("/img/section-1/entrance.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.user-navigation__link--basket {
+  padding-right: 34px;
+  padding-left: 45px;
+}
+
+.user-navigation__link--basket::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 32px;
+  height: 32px;
+  content: "";
+  background-image: url("/img/section-1/basket.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -114,6 +165,7 @@ a {
 .header-container p {
   font-size: 14px;
   line-height: 16px;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -121,4 +173,5 @@ a {
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
+  padding-top: 6px;
 }

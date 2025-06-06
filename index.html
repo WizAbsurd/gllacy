@@ -14,59 +14,78 @@
 </head>
 <body>
   <header class="main-header">
-    <div class="header-container">
-      <nav class="header-navigation">
-        <div class="service-navigation">
-          <a class="main-header-logo" href="index.html">
-            <img
-              src="/img/logo.svg"
-              width="154"
-              height="64"
-              alt="Логотип онлайн-магазина мороженого Глэйси"
-            />
-          </a>
-          <ul class="navigation-list">
-            <li class="nav-item">
-              <a class="link" href="/catalog.html">Каталог</a>
-              <ul class="catalog-menu-list">
-                <li class="catalog-menu-item">
-                  <a class="catalog-menu-link" href="#">Новинки</a>
-                </li>
-                <li class="catalog-menu-item">
-                  <a class="catalog-menu-link" href="#">Сливочное</a>
-                </li>
-                <li class="catalog-menu-item">
-                  <a class="catalog-menu-link" href="#">Щербеты</a>
-                </li>
-                <li class="catalog-menu-item">
-                  <a class="catalog-menu-link" href="#">Фруктовый лёд</a>
-                </li>
-                <li class="catalog-menu-item">
-                  <a class="catalog-menu-link" href="#">Мелорин</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="link" href="#">Доставка и&nbsp;оплата</a>
-            </li>
-            <li class="nav-item">
-              <a class="link" href="#">Доставка и&nbsp;оплата</a>
-            </li>
-            <li class="nav-item">
-              <a class="link" href="#">О&nbsp;Компании</a>
-            </li>
-          </ul>
-        </div>
-        <ul class="user-navigation">
-          <li class="user-search"></li>
-          <li class="user-login">Вход</li>
-          <li class="user-basket">Пусто</li>
+    <nav class="header-navigation">
+      <div class="header-navigation__wrapper">
+        <a class="main-header-logo" href="index.html">
+          <img
+            src="/img/logo.svg"
+            width="154"
+            height="64"
+            alt="Логотип онлайн-магазина мороженого Глэйси"
+          />
+        </a>
+        <ul class="header-navigation">
+          <li class="header-navigation__item">
+            <a class="header-navigation__item--link" href="/catalog.html"
+              >Каталог</a
+            >
+            <ul class="catalog-menu-list">
+              <li class="catalog-menu-item">
+                <a class="catalog-menu-link" href="#">Новинки</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a class="catalog-menu-link" href="#">Сливочное</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a class="catalog-menu-link" href="#">Щербеты</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a class="catalog-menu-link" href="#">Фруктовый лёд</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a class="catalog-menu-link" href="#">Мелорин</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header-navigation__item">
+            <a class="header-navigation__item--link" href="#"
+              >Доставка и&nbsp;оплата</a
+            >
+          </li>
+          <li class="header-navigation__item">
+            <a class="header-navigation__item--link" href="#"
+              >О&nbsp;Компании</a
+            >
+          </li>
         </ul>
-      </nav>
-      <div class="header-container-contacts">
-        <p class="contacts-info">С&nbsp;10&nbsp;до&nbsp;20, ежедневно</p>
-        <a class="header-phone" href="tel:88124502525">8 812 450-25-25</a>
       </div>
+      <ul class="user-navigation">
+        <li class="user-navigation__item">
+          <a
+            class="user-navigation__link user-navigation__link--search"
+            href="#"
+            >Поиск</a
+          >
+        </li>
+        <li class="user-navigation__item">
+          <a class="user-navigation__link user-navigation__link--login" href="#"
+            >Вход</a
+          >
+        </li>
+        <li class="user-navigation__item">
+          <a
+            class="user-navigation__link user-navigation__link--basket"
+            href="#"
+            >Пусто</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="header-container">
+      <p class="header-container--info">С&nbsp;10&nbsp;до&nbsp;20, ежедневно</p>
+      <a class="header-container--phone" href="tel:88124502525"
+        >8 812 450-25-25</a
+      >
     </div>
   </header>
 </body>

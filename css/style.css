@@ -101,7 +101,7 @@ a {
   padding-bottom: 5px;
   border-radius: 5px;
   background-color: #f8f7f4;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .header-navigation__item:hover .cat-navigation {
@@ -188,6 +188,57 @@ a {
   background-image: url("/img/section-1/loupe.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.user-navigation__link--search:hover:after {
+  background-color: #f8f7f4;
+  border-radius: 50%;
+  content: "";
+  background-image: url("/img/section-1/loupe-black.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.search__form {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  width: 340px;
+  top: 37px;
+  right: 0;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  border-radius: 5px;
+  background-color: #f8f7f4;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.user-navigation__item:hover .search__form {
+  display: block;
+}
+
+.search__input {
+  width: 310px;
+  height: 44px;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 12px;
+}
+
+input[type="search"] {
+  font-weight: 400;
+  border: 1px solid #d3d3d2;
+  border-radius: 4px;
+}
+
+input[type="search"]:hover {
+  box-shadow: 0 0 0 1px #d3d3d2;
 }
 
 .user-navigation__link--login {

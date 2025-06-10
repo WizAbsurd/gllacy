@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru"></html>
-<head>
-  <meta charset="utf-8" />
-  <title>Онлайн-магазин мороженого Глэйси</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet"
-  />
-  <link href="css/normalize.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-</head>
-<body>
-  <header class="main-header">
-    <nav class="header-navigation">
-      <div class="header-navigation__wrapper">
-        <a class="main-header-logo" href="index.html">
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Онлайн-магазин мороженого Глэйси</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo" href="index.html">
           <img
             src="/img/section-1/logo.svg"
             width="154"
@@ -26,85 +25,125 @@
         </a>
         <ul class="header-navigation__list">
           <li class="header-navigation__item">
-            <a class="header-navigation__item--link" href="/catalog.html">
+            <a class="header-navigation__item_link" href="/catalog.html">
               <span class="underline">Каталог</span></a
             >
-            <ul class="cat-navigation">
-              <li class="cat-navigation__item cat-navigation__item--sign">
+            <ul class="category-navigation">
+              <li
+                class="category-navigation__item category-navigation__item--sign"
+              >
                 <a
-                  class="cat-navigation__link cat-navigation__link--underlining"
+                  class="category-navigation__link category-navigation__link--underlining"
                   href="#"
                   >Новинки</a
                 >
               </li>
-              <li class="cat-navigation__item">
-                <a class="cat-navigation__link" href="#">Сливочное</a>
+              <li class="category-navigation__item">
+                <a class="category-navigation__link" href="#">Сливочное</a>
               </li>
-              <li class="cat-navigation__item">
-                <a class="cat-navigation__link" href="#">Щербеты</a>
+              <li class="category-navigation__item">
+                <a class="category-navigation__link" href="#">Щербеты</a>
               </li>
-              <li class="cat-navigation__item">
-                <a class="cat-navigation__link" href="#">Фруктовый лёд</a>
+              <li class="category-navigation__item">
+                <a class="category-navigation__link" href="#">Фруктовый лёд</a>
               </li>
-              <li class="cat-navigation__item">
-                <a class="cat-navigation__link" href="#">Мелорин</a>
+              <li class="category-navigation__item">
+                <a class="category-navigation__link" href="#">Мелорин</a>
               </li>
             </ul>
           </li>
           <li class="header-navigation__item">
-            <a class="header-navigation__item--link" href="#">
+            <a class="header-navigation__item_link" href="#">
               <span class="underline">Доставка и&nbsp;оплата</span></a
             >
           </li>
           <li class="header-navigation__item">
-            <a class="header-navigation__item--link" href="#"
+            <a class="header-navigation__item_link" href="#"
               ><span class="underline">О&nbsp;Компании</span></a
             >
           </li>
         </ul>
-      </div>
-      <ul class="user-navigation">
-        <li class="user-navigation__item">
-          <a
-            class="user-navigation__link user-navigation__link--search"
-            href="#"
-            >Поиск</a
-          >
-          <form
-            class="search__form"
-            action="https://echo.htmlacademy.ru/"
-            method="post"
-          >
-            <label class="visually-hidden" for="search__input"
-              >Поиск по&nbsp;сайту</label
+        <ul class="user-navigation">
+          <li class="user-navigation__item">
+            <a
+              class="user-navigation__link user-navigation__link_search"
+              href="#"
+            ></a>
+            <form
+              class="search__form"
+              action="https://echo.htmlacademy.ru/"
+              method="post"
             >
-            <input
-              id="search__input"
-              class="search__input"
-              type="search"
-              placeholder="Что ищем?"
-            />
-          </form>
-        </li>
-        <li class="user-navigation__item">
-          <a class="user-navigation__link user-navigation__link--login" href="#"
-            >Вход</a
-          >
-        </li>
-        <li class="user-navigation__item">
-          <a
-            class="user-navigation__link user-navigation__link--basket"
-            href="#"
-            >Пусто</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <div class="header-container">
-      <p class="header-container--info">С&nbsp;10&nbsp;до&nbsp;20, ежедневно</p>
-      <a class="header-container--phone" href="tel:88124502525"
-        >8 812 450-25-25</a
-      >
-    </div>
-  </header>
-</body>
+              <label class="visually-hidden" for="search__input"
+                >Поиск по&nbsp;сайту</label
+              >
+              <input
+                id="search__input"
+                class="search__input"
+                type="search"
+                placeholder="Что ищем?"
+              />
+            </form>
+          </li>
+          <li class="user-navigation__item">
+            <a
+              class="user-navigation__link user-navigation__link_login"
+              href="#"
+              >Вход</a
+            >
+            <form
+              class="login__form"
+              action="https://echo.htmlacademy.ru/"
+              method="post"
+            >
+              <div class="login__form_wrapper">
+                <label class="visually-hidden" for="login__email"
+                  >Электронная почта</label
+                >
+                <input
+                  id="login__email"
+                  class="login__input login__input_email"
+                  type="email"
+                  placeholder="Электронная почта"
+                />
+                <label class="visually-hidden" for="login__pass">Пароль</label>
+                <input
+                  class="login__input login__input_pass"
+                  id="login__pass"
+                  type="password"
+                  placeholder="Пароль"
+                />
+                <div class="login__wrapper">
+                  <button class="button login__button">Войти</button>
+                  <div class="login__wrapper_link">
+                    <a class="login__link" href="#">
+                      <span class="underline">Забыли пароль?</span>
+                    </a>
+                    <a class="login__link" href="#">
+                      <span class="underline">Новая регистрация</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </li>
+          <li class="user-navigation__item">
+            <a
+              class="user-navigation__link user-navigation__link_basket"
+              href="#"
+              >Пусто</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="header-container">
+        <p class="header-container_info">
+          С&nbsp;10&nbsp;до&nbsp;20, ежедневно
+        </p>
+        <a class="header-container_phone" href="tel:88124502525"
+          >8 812 450-25-25</a
+        >
+      </div>
+    </header>
+  </body>
+</html>

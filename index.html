@@ -25,17 +25,16 @@
         </a>
         <ul class="header-navigation__list">
           <li class="header-navigation__item">
-            <a class="header-navigation__item_link" href="/catalog.html">
+            <a class="header-navigation__item-link" href="/catalog.html">
               <span class="underline">Каталог</span></a
             >
             <ul class="category-navigation">
               <li
                 class="category-navigation__item category-navigation__item--sign"
               >
-                <a
-                  class="category-navigation__link category-navigation__link--underlining"
-                  href="#"
-                  >Новинки</a
+                <b
+                  class="category-navigation__link category-navigation__link-underlining"
+                  >Новинки</b
                 >
               </li>
               <li class="category-navigation__item">
@@ -53,12 +52,12 @@
             </ul>
           </li>
           <li class="header-navigation__item">
-            <a class="header-navigation__item_link" href="#">
+            <a class="header-navigation__item-link" href="#">
               <span class="underline">Доставка и&nbsp;оплата</span></a
             >
           </li>
           <li class="header-navigation__item">
-            <a class="header-navigation__item_link" href="#"
+            <a class="header-navigation__item-link" href="#"
               ><span class="underline">О&nbsp;Компании</span></a
             >
           </li>
@@ -66,19 +65,19 @@
         <ul class="user-navigation">
           <li class="user-navigation__item">
             <a
-              class="user-navigation__link user-navigation__link_search"
+              class="user-navigation__link user-navigation__link--search"
               href="#"
             ></a>
             <form
               class="search__form"
               action="https://echo.htmlacademy.ru/"
-              method="post"
+              method="POST"
             >
               <label class="visually-hidden" for="search__input"
                 >Поиск по&nbsp;сайту</label
               >
               <input
-                id="search__input"
+                id="search-input"
                 class="search__input"
                 type="search"
                 placeholder="Что ищем?"
@@ -87,35 +86,37 @@
           </li>
           <li class="user-navigation__item">
             <a
-              class="user-navigation__link user-navigation__link_login"
+              class="user-navigation__link user-navigation__link--login"
               href="#"
               >Вход</a
             >
             <form
               class="login__form"
               action="https://echo.htmlacademy.ru/"
-              method="post"
+              method="POST"
             >
-              <div class="login__form_wrapper">
+              <div class="login__form-wrapper">
                 <label class="visually-hidden" for="login__email"
                   >Электронная почта</label
                 >
                 <input
                   id="login__email"
-                  class="login__input login__input_email"
+                  class="login__input login__input--email"
                   type="email"
                   placeholder="Электронная почта"
                 />
                 <label class="visually-hidden" for="login__pass">Пароль</label>
                 <input
-                  class="login__input login__input_pass"
+                  class="login__input login__input--pass"
                   id="login__pass"
                   type="password"
                   placeholder="Пароль"
                 />
                 <div class="login__wrapper">
-                  <button class="button login__button">Войти</button>
-                  <div class="login__wrapper_link">
+                  <button class="button login__button" type="button">
+                    Войти
+                  </button>
+                  <div class="login__wrapper-link">
                     <a class="login__link" href="#">
                       <span class="underline">Забыли пароль?</span>
                     </a>
@@ -129,7 +130,7 @@
           </li>
           <li class="user-navigation__item">
             <a
-              class="user-navigation__link user-navigation__link_basket"
+              class="user-navigation__link user-navigation__link--basket"
               href="#"
               >Пусто</a
             >
@@ -137,13 +138,16 @@
         </ul>
       </nav>
       <div class="header-container">
-        <p class="header-container_info">
+        <p class="header-container__info">
           С&nbsp;10&nbsp;до&nbsp;20, ежедневно
         </p>
-        <a class="header-container_phone" href="tel:88124502525"
+        <a class="header-container__phone" href="tel:88124502525"
           >8 812 450-25-25</a
         >
       </div>
     </header>
+    <main class="main-header">
+      <h1 class="visually-hidden"></h1>
+    </main>
   </body>
 </html>

@@ -54,7 +54,7 @@ a {
   position: relative;
 }
 
-.header-navigation__item-link {
+.header-navigation__link {
   display: block;
   padding-top: 5px;
   padding-right: 14px;
@@ -62,20 +62,20 @@ a {
   padding-left: 14px;
 }
 
-.header-navigation__item-link:hover {
+.header-navigation__link:hover {
   color: #323232;
   border: none;
   border-radius: 30px;
   background-color: #f7f6f3;
 }
 
-.header-navigation__item-link:active {
+.header-navigation__link:active {
   border: none;
   border-radius: 30px;
   box-shadow: inset 0 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.header-navigation__item-link span:hover {
+.header-navigation__link span:hover {
   border-bottom: none;
 }
 
@@ -140,8 +140,9 @@ a {
   background-color: #f6b5a5;
 }
 
-.category-navigation__link-underlining {
+.category-navigation__link--underlining {
   font-weight: bolder;
+  pointer-events: none;
   border-bottom: 1px solid #d1d0ce;
 }
 
@@ -248,12 +249,12 @@ input[type="password"]:hover {
   box-shadow: 0 0 0 1px #d3d3d2;
 }
 
-.user-navigation__link--login {
+.user-navigation__link-login {
   padding-right: 16px;
   padding-left: 44px;
 }
 
-.user-navigation__link--login::after {
+.user-navigation__link-login::after {
   position: absolute;
   top: 0;
   left: 10px;
@@ -266,7 +267,7 @@ input[type="password"]:hover {
   background-repeat: no-repeat;
 }
 
-.user-navigation__link--login:hover:after {
+.user-navigation__link-login:hover:after {
   background-position: 50% 50%;
   background-image: url("/img/section-1/entrance-black.svg");
   background-repeat: no-repeat;
@@ -290,7 +291,7 @@ input[type="password"]:hover {
 }
 
 .login__form,
-.user-navigation__link--login:hover {
+.user-navigation__link-login:hover {
   color: #323232;
   background-color: #f8f7f5;
 }
@@ -365,12 +366,12 @@ input[type="password"]:hover {
   border-bottom-color: rgba(256, 188, 158, 0.5);
 }
 
-.user-navigation__link--basket {
+.user-navigation__link-basket {
   padding-right: 34px;
   padding-left: 45px;
 }
 
-.user-navigation__link--basket::after {
+.user-navigation__link-basket::after {
   position: absolute;
   top: 0;
   left: 10px;

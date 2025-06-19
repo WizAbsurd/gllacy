@@ -1,10 +1,10 @@
 /* css imprts */
-@import url("./components/header-navigation.css");
-@import url("./components/category-navigation.css");
-@import url("./components/user-navigation.css");
-@import url("/css/components/header-container.css");
-@import url("/css/components/search-form.css");
-@import url("/css/components/login-form.css");
+@import url("./header/header-navigation.css");
+@import url("./header/category-navigation.css");
+@import url("./header/user-navigation.css");
+@import url("/css/header/header-container.css");
+@import url("/css/header/search-form.css");
+@import url("/css/header/login-form.css");
 
 *,
 *::before,

@@ -28,7 +28,7 @@
   background-color: #f8f7f5;
 }
 
-.login__input {
+.login-form__input {
   width: 100%;
   min-height: 42px;
   padding-left: 14px;
@@ -36,12 +36,12 @@
   line-height: 24px;
 }
 
-.login__wrapper {
+.login-form__wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-.login__button {
+.login-form__button {
   padding-top: 10px;
   padding-right: 25px;
   padding-bottom: 10px;
@@ -49,23 +49,23 @@
   border-radius: 20px;
 }
 
-.login__wrapper-link {
+.login-form__wrapper-link {
   display: flex;
   flex-direction: column;
 }
 
-.login__link {
+.login-form__link {
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
   color: #323232;
 }
 
-.login__link .underline {
+.login-form__link .underline {
   border-bottom-color: rgba(0, 0, 0, 0.3);
 }
 
-.login__link .underline:hover {
+.login-form__link .underline:hover {
   color: #e84d37;
   border-bottom-color: rgba(256, 188, 158, 0.5);
 }

@@ -2,9 +2,9 @@
 @import url("./header/header-navigation.css");
 @import url("./header/category-navigation.css");
 @import url("./header/user-navigation.css");
-@import url("/css/header/header-container.css");
-@import url("/css/header/search-form.css");
-@import url("/css/header/login-form.css");
+@import url("./header/header-container.css");
+@import url("./header/search-form.css");
+@import url("./header/login-form.css");
 
 *,
 *::before,

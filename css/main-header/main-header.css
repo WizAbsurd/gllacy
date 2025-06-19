@@ -25,7 +25,7 @@
   position: absolute;
   z-index: -1;
   top: -126px;
-  right: 2%;
+  left: 0%;
 }
 
 .slider__description {

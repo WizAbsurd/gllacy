@@ -5,6 +5,7 @@
 @import url("./header/header-container.css");
 @import url("./header/search-form.css");
 @import url("./header/login-form.css");
+@import url("./main-header/main-header.css");
 
 *,
 *::before,
@@ -44,12 +45,11 @@ a {
 }
 
 .visually-hidden {
+  position: absolute;
   display: none;
 }
 
 .button {
-  font-size: 18px;
-  line-height: 24px;
   font-weight: 700;
   color: #ffffff;
   border: 0;
@@ -66,4 +66,11 @@ a {
 .button:active {
   background-image: linear-gradient(#e74a35, #f26843);
   box-shadow: 0 1px 2px 0 #ac1000;
+}
+
+.main-header {
+  width: 900px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }

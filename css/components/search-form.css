@@ -1,0 +1,37 @@
+.search-form {
+  box-sizing: border-box;
+  position: absolute;
+  top: 33px;
+  right: 0;
+  display: none;
+  min-width: 340px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  border-radius: 5px;
+  background-color: #f8f7f4;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.search__input {
+  width: 100%;
+  min-height: 44px;
+  padding-left: 12px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+input[type="search"],
+input[type="email"],
+input[type="password"] {
+  font-weight: 400;
+  border: 1px solid #d3d3d2;
+  border-radius: 4px;
+}
+
+input[type="search"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+  box-shadow: 0 0 0 1px #d3d3d2;
+}

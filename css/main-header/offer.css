@@ -1,4 +1,4 @@
-.offer__list {
+.offer {
   display: flex;
   justify-content: space-between;
 }
@@ -30,20 +30,20 @@
 
 .offer__title {
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-size: 35px;
   line-height: 41px;
 }
 
 .offer__description {
   margin: 0;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
 }
 
-.offer__button {
+.button--offer {
   display: block;
   align-self: flex-end;
   padding-top: 10px;

@@ -1,4 +1,4 @@
-.slider-container {
+.slider {
   min-width: 900px;
   margin: 0 auto;
   padding: 0;
@@ -26,7 +26,7 @@
   position: absolute;
   z-index: -1;
   top: -126px;
-  left: 0%;
+  left: -7%;
 }
 
 .slider__description {
@@ -40,7 +40,7 @@
   font-weight: 700;
 }
 
-.slider__button {
+.button--slider {
   display: block;
   padding-top: 10px;
   padding-right: 40px;
@@ -51,7 +51,7 @@
   border-radius: 32px;
 }
 
-.slider-container__button-list {
+.slider__buttons {
   position: absolute;
   display: flex;
   top: 563px;
@@ -61,7 +61,7 @@
   list-style: none;
 }
 
-.button-list__link {
+.buttons__link {
   width: 20px;
   height: 20px;
   background-color: transparent;
@@ -69,11 +69,11 @@
   border-radius: 50%;
 }
 
-.button-list__link--active,
-.button-list__link:active {
+.buttons__link--active,
+.buttons__link:active {
   background-color: #ffffff;
 }
 
-.button-list__link:not(.button-list__link--active):not(:active):hover {
+.buttons__link:not(.buttons__link--active):not(:active):hover {
   background-color: rgba(256, 256, 256, 0.5);
 }

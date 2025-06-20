@@ -59,12 +59,12 @@
   display: block;
 }
 
-.user-navigation__link-login {
+.user-navigation__link--login {
   padding-right: 16px;
   padding-left: 44px;
 }
 
-.user-navigation__link-login::after {
+.user-navigation__link--login::after {
   position: absolute;
   top: 0;
   left: 10px;
@@ -77,18 +77,18 @@
   background-repeat: no-repeat;
 }
 
-.user-navigation__link-login:hover:after {
+.user-navigation__link--login:hover:after {
   background-position: 50% 50%;
   background-image: url("/img/section-1/entrance-black.svg");
   background-repeat: no-repeat;
 }
 
-.user-navigation__link-basket {
+.user-navigation__link--basket {
   padding-right: 34px;
   padding-left: 45px;
 }
 
-.user-navigation__link-basket::after {
+.user-navigation__link--basket::after {
   position: absolute;
   top: 0;
   left: 10px;

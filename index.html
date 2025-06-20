@@ -86,7 +86,7 @@
           </li>
           <li class="user-navigation__item">
             <a
-              class="user-navigation__link user-navigation__link-login"
+              class="user-navigation__link user-navigation__link--login"
               href="#"
               >Вход</a
             >
@@ -101,19 +101,19 @@
                 >
                 <input
                   id="login-email"
-                  class="login-form__input login-form__input-email"
+                  class="login-form__input login-form__input--email"
                   type="email"
                   placeholder="Электронная почта"
                 />
                 <label class="visually-hidden" for="login-pass">Пароль</label>
                 <input
-                  class="login-form__input login-form__input-pass"
+                  class="login-form__input login-form__input--pass"
                   id="login-pass"
                   type="password"
                   placeholder="Пароль"
                 />
                 <div class="login-form__wrapper">
-                  <button class="button login-form__button" type="button">
+                  <button class="button button--login-form" type="button">
                     Войти
                   </button>
                   <div class="login-form__wrapper-link">
@@ -130,7 +130,7 @@
           </li>
           <li class="user-navigation__item">
             <a
-              class="user-navigation__link user-navigation__link-basket"
+              class="user-navigation__link user-navigation__link--basket"
               href="#"
               >Пусто</a
             >
@@ -148,64 +148,64 @@
     </header>
     <main class="main-header container">
       <h1 class="visually-hidden">Магазин мороженого &laquo;Gllacy&raquo;</h1>
-      <section class="slider-container container">
+      <section class="slider container">
         <h2 class="visually-hidden">Слайдер</h2>
         <ul class="slider__list">
           <li class="slider__item slider__item--active">
             <img
               class="slider__image"
               src="/img/section-2/slider-item1.png"
-              width="900"
+              width="1045"
               height="881"
               alt="Два рожка с мороженным"
             />
             <p class="slider__description">
               Крем-брюле и&nbsp;пломбир с&nbsp;малиновым джемом
             </p>
-            <a class="button slider__button" href="#">Давайте оба!</a>
+            <a class="button button--slider" href="#">Давайте оба!</a>
           </li>
           <li class="slider__item visually-hidden">
             <img
               class="slider__image"
               src="/img/section-2/slider-item2.png"
-              width="900"
+              width="1065"
               height="859"
               alt="Два рожка с мороженным"
             />
             <p class="slider__description">
               Шоколадный пломбир и&nbsp;лимонный сорбет
             </p>
-            <a class="button slider__button" href="#">Давайте оба!</a>
+            <a class="button button--slider" href="#">Давайте оба!</a>
           </li>
           <li class="slider__item visually-hidden">
             <img
               class="slider__image"
               src="/img/section-2/slider-item3.png"
-              width="900"
-              height="852"
+              width="1079"
+              height="854"
               alt="Два рожка с мороженным"
             />
             <p class="slider__description">
               Пломбир с&nbsp;помадкой и&nbsp;клубничный щербет
             </p>
-            <a class="button slider__button" href="#">Давайте оба!</a>
+            <a class="button button--slider" href="#">Давайте оба!</a>
           </li>
         </ul>
-        <ul class="slider-container__button-list">
-          <li class="button-list__item">
+        <ul class="slider__buttons">
+          <li class="buttons__item">
             <button
-              class="button-list__link button-list__link--one button-list__link--active"
+              class="buttons__link buttons__link--one buttons__link--active"
             ></button>
           </li>
-          <li class="button-list__item">
-            <button class="button-list__link button-list__link--two"></button>
+          <li class="buttons__item">
+            <button class="buttons__link buttons__link--two"></button>
           </li>
-          <li class="button-list__item">
-            <button class="button-list__link button-list__link--three"></button>
+          <li class="buttons__item">
+            <button class="buttons__link buttons__link--three"></button>
           </li>
         </ul>
       </section>
-      <section class="offer__list container">
+      <section class="offer container">
         <h2 class="visually-hidden">Наши выгодные предложения</h2>
         <div class="offer__item offer__item--raspberry">
           <h3 class="offer__title">Малинка даром!</h3>
@@ -213,7 +213,7 @@
             При покупке 2&nbsp;кг любого фруктового мороженого, добавим
             в&nbsp;ваш заказ банку малинового варенья бесплатно.
           </p>
-          <a class="button offer__button" href="#">Хочу варенье!</a>
+          <a class="button button--offer" href="#">Хочу варенье!</a>
         </div>
         <div class="offer__item offer__item--chocolate">
           <h3 class="offer__title">Шоколадки даром!</h3>
@@ -221,7 +221,7 @@
             При покупке 3&nbsp;кг пломбира, добавим в&nbsp;ваш заказ упаковку
             вкуснейшей шоколадной присыпки совершенно бесплатно.
           </p>
-          <a class="button offer__button" href="#">Хочу шоколадки!</a>
+          <a class="button button--offer" href="#">Хочу шоколадки!</a>
         </div>
       </section>
       <section class="product-offer container">

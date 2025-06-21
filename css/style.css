@@ -1,0 +1,78 @@
+/* css imprts */
+@import url("./header/header.css");
+@import url("./header/category.css");
+@import url("./header/user.css");
+@import url("./header/container.css");
+@import url("./header/search-form.css");
+@import url("./header/login-form.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #849d8f;
+}
+
+a,
+body {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.underline {
+  border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+}
+
+.underline:hover {
+  border-bottom: 1px solid rgba(256, 188, 158, 0.3);
+}
+
+.underline:active {
+  border-bottom: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 0;
+  background-color: #e9563a;
+  box-shadow: 0 2px 2px 0 rgba(7, 6, 0, 0.36);
+  text-shadow: 0 2px 5px #a0200b;
+}
+
+.button:hover {
+  background-image: linear-gradient(#f58669, #ec6f5e);
+  box-shadow: 0 1px 2px 0 #ac1000;
+}
+
+.button:active {
+  background-image: linear-gradient(#e74a35, #f26843);
+  box-shadow: 0 1px 2px 0 #ac1000;
+}

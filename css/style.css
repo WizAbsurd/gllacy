@@ -1,8 +1,8 @@
 /* css imprts */
-@import url("./header/header-navigation.css");
-@import url("./header/category-navigation.css");
-@import url("./header/user-navigation.css");
-@import url("./header/header-container.css");
+@import url("./header/header.css");
+@import url("./header/category.css");
+@import url("./header/user.css");
+@import url("./header/container.css");
 @import url("./header/search-form.css");
 @import url("./header/login-form.css");
 
@@ -44,7 +44,16 @@ a {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .button {

@@ -1,4 +1,4 @@
-.user-navigation {
+.user {
   display: flex;
   margin: 0;
   margin-left: auto;
@@ -8,11 +8,11 @@
   list-style: none;
 }
 
-.user-navigation__item {
+.user__item {
   position: relative;
 }
 
-.user-navigation__link {
+.user__link {
   display: block;
   position: relative;
   padding-top: 8px;
@@ -26,13 +26,13 @@
   background-color: rgba(256, 256, 256, 0.5);
 }
 
-.user-navigation__link--search {
+.user__link--search {
   width: 32px;
   height: 32px;
   padding: 0;
 }
 
-.user-navigation__link--search::after {
+.user__link--search::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -45,7 +45,7 @@
   background-repeat: no-repeat;
 }
 
-.user-navigation__link--search:hover:after {
+.user__link--search:hover:after {
   content: "";
   background-color: #f8f7f4;
   border-radius: 50%;
@@ -54,17 +54,17 @@
   background-repeat: no-repeat;
 }
 
-.user-navigation__item:hover .search-form,
-.user-navigation__item:hover .login-form {
+.user__item:hover .search-form,
+.user__item:hover .login-form {
   display: block;
 }
 
-.user-navigation__link--login {
+.user__link--login {
   padding-right: 16px;
   padding-left: 44px;
 }
 
-.user-navigation__link--login::after {
+.user__link--login::after {
   position: absolute;
   top: 0;
   left: 10px;
@@ -77,18 +77,18 @@
   background-repeat: no-repeat;
 }
 
-.user-navigation__link--login:hover:after {
+.user__link--login:hover:after {
   background-position: 50% 50%;
   background-image: url("/img/section-1/entrance-black.svg");
   background-repeat: no-repeat;
 }
 
-.user-navigation__link--basket {
+.user__link--basket {
   padding-right: 34px;
   padding-left: 45px;
 }
 
-.user-navigation__link--basket::after {
+.user__link--basket::after {
   position: absolute;
   top: 0;
   left: 10px;

@@ -1,4 +1,5 @@
 .slider {
+  position: relative;
   min-width: 900px;
   margin: 0 auto;
   padding: 0;
@@ -10,15 +11,16 @@
   list-style: none;
 }
 
-.slider__item--active {
-  display: flex;
-}
-
 .slider__item {
   position: relative;
+  display: none;
   flex-direction: column;
   align-items: center;
   padding-top: 268px;
+}
+
+.slider__item--active {
+  display: flex;
 }
 
 .slider__image {
@@ -53,7 +55,7 @@
 .slider__buttons {
   position: absolute;
   display: flex;
-  top: 563px;
+  bottom: 20px;
   margin: 0;
   padding: 0;
   gap: 8px;

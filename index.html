@@ -13,318 +13,295 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="header container">
-      <nav class="header-navigation">
-        <a class="header-logo" href="index.html">
-          <img
-            src="/img/section-1/logo.svg"
-            width="154"
-            height="64"
-            alt="Логотип онлайн-магазина мороженого Глэйси"
-          />
-        </a>
-        <ul class="header-navigation__list">
-          <li class="header-navigation__item">
-            <a class="header-navigation__link" href="/catalog.html">
-              <span class="underline">Каталог</span></a
-            >
-            <ul class="category-navigation">
-              <li
-                class="category-navigation__item category-navigation__item--sign"
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__navigation">
+          <a class="logo" href="index.html">
+            <img
+              src="/img/section-1/logo.svg"
+              width="154"
+              height="64"
+              alt="Логотип онлайн-магазина мороженого Глэйси"
+            />
+          </a>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="/catalog.html">
+                <span class="underline">Каталог</span></a
               >
-                <b
-                  class="category-navigation__title category-navigation__title--underlining"
-                  >Новинки</b
-                >
-              </li>
-              <li class="category-navigation__item">
-                <a class="category-navigation__link" href="#">Сливочное</a>
-              </li>
-              <li class="category-navigation__item">
-                <a class="category-navigation__link" href="#">Щербеты</a>
-              </li>
-              <li class="category-navigation__item">
-                <a class="category-navigation__link" href="#">Фруктовый лёд</a>
-              </li>
-              <li class="category-navigation__item">
-                <a class="category-navigation__link" href="#">Мелорин</a>
-              </li>
-            </ul>
-          </li>
-          <li class="header-navigation__item">
-            <a class="header-navigation__link" href="#">
-              <span class="underline">Доставка и&nbsp;оплата</span></a
-            >
-          </li>
-          <li class="header-navigation__item">
-            <a class="header-navigation__link" href="#"
-              ><span class="underline">О&nbsp;Компании</span></a
-            >
-          </li>
-        </ul>
-        <ul class="user-navigation">
-          <li class="user-navigation__item">
-            <a
-              class="user-navigation__link user-navigation__link--search"
-              href="#"
-            ></a>
-            <form
-              class="search-form"
-              action="https://echo.htmlacademy.ru/"
-              method="POST"
-            >
-              <label class="visually-hidden" for="search-input"
-                >Поиск по&nbsp;сайту</label
+              <ul class="category">
+                <li class="category__item category__item--sign">
+                  <b class="category__title category__title--underlining"
+                    >Новинки</b
+                  >
+                </li>
+                <li class="category__item">
+                  <a class="category__link" href="#">Сливочное</a>
+                </li>
+                <li class="category__item">
+                  <a class="category__link" href="#">Щербеты</a>
+                </li>
+                <li class="category__item">
+                  <a class="category__link" href="#">Фруктовый лёд</a>
+                </li>
+                <li class="category__item">
+                  <a class="category__link" href="#">Мелорин</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                <span class="underline">Доставка и&nbsp;оплата</span></a
               >
-              <input
-                id="search-input"
-                class="search-form__input"
-                type="search"
-                placeholder="Что ищем?"
-              />
-            </form>
-          </li>
-          <li class="user-navigation__item">
-            <a
-              class="user-navigation__link user-navigation__link--login"
-              href="#"
-              >Вход</a
-            >
-            <form
-              class="login-form"
-              action="https://echo.htmlacademy.ru/"
-              method="POST"
-            >
-              <div class="login-form__form-wrapper">
-                <label class="visually-hidden" for="login-email"
-                  >Электронная почта</label
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#"
+                ><span class="underline">О&nbsp;Компании</span></a
+              >
+            </li>
+          </ul>
+          <ul class="user">
+            <li class="user__item">
+              <a class="user__link user__link--search" href="#"></a>
+              <form
+                class="search-form"
+                action="https://echo.htmlacademy.ru/"
+                method="POST"
+              >
+                <label class="visually-hidden" for="search-input"
+                  >Поиск по&nbsp;сайту</label
                 >
                 <input
-                  id="login-email"
-                  class="login-form__input login-form__input--email"
-                  type="email"
-                  placeholder="Электронная почта"
+                  id="search-input"
+                  class="search-form__input"
+                  type="search"
+                  placeholder="Что ищем?"
                 />
-                <label class="visually-hidden" for="login-pass">Пароль</label>
-                <input
-                  class="login-form__input login-form__input--pass"
-                  id="login-pass"
-                  type="password"
-                  placeholder="Пароль"
-                />
-                <div class="login-form__wrapper">
-                  <button class="button button--login-form" type="button">
-                    Войти
-                  </button>
-                  <div class="login-form__wrapper-link">
-                    <a class="login-form__link" href="#">
-                      <span class="underline">Забыли пароль?</span>
-                    </a>
-                    <a class="login-form__link" href="#">
-                      <span class="underline">Новая регистрация</span>
-                    </a>
+              </form>
+            </li>
+            <li class="user__item">
+              <a class="user__link user__link--login" href="#">Вход</a>
+              <form
+                class="login-form"
+                action="https://echo.htmlacademy.ru/"
+                method="POST"
+              >
+                <div class="login-form__form-wrapper">
+                  <label class="visually-hidden" for="login-email"
+                    >Электронная почта</label
+                  >
+                  <input
+                    id="login-email"
+                    class="login-form__input login-form__input--email"
+                    type="email"
+                    placeholder="Электронная почта"
+                  />
+                  <label class="visually-hidden" for="login-pass">Пароль</label>
+                  <input
+                    class="login-form__input login-form__input--pass"
+                    id="login-pass"
+                    type="password"
+                    placeholder="Пароль"
+                  />
+                  <div class="login-form__wrapper">
+                    <button class="button button--login-form" type="button">
+                      Войти
+                    </button>
+                    <div class="login-form__wrapper-link">
+                      <a class="login-form__link" href="#">
+                        <span class="underline">Забыли пароль?</span>
+                      </a>
+                      <a class="login-form__link" href="#">
+                        <span class="underline">Новая регистрация</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </form>
-          </li>
-          <li class="user-navigation__item">
-            <a
-              class="user-navigation__link user-navigation__link--basket"
-              href="#"
-              >Пусто</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="header-container">
-        <p class="header-container__info">
-          С&nbsp;10&nbsp;до&nbsp;20, ежедневно
-        </p>
-        <a class="header-container__phone" href="tel:88124502525"
-          >8 812 450-25-25</a
-        >
-      </div>
-    </header>
-    <main class="main-header container">
-      <h1 class="visually-hidden">Магазин мороженого &laquo;Gllacy&raquo;</h1>
-      <section class="slider container">
-        <h2 class="visually-hidden">Слайдер</h2>
-        <ul class="slider__list">
-          <li class="slider__item slider__item--active">
-            <img
-              class="slider__image"
-              src="/img/section-2/slider-item1.png"
-              width="1045"
-              height="881"
-              alt="Два рожка с мороженным"
-            />
-            <p class="slider__description">
-              Крем-брюле и&nbsp;пломбир с&nbsp;малиновым джемом
-            </p>
-            <a class="button button--slider" href="#">Давайте оба!</a>
-          </li>
-          <li class="slider__item visually-hidden">
-            <img
-              class="slider__image"
-              src="/img/section-2/slider-item2.png"
-              width="1065"
-              height="859"
-              alt="Два рожка с мороженным"
-            />
-            <p class="slider__description">
-              Шоколадный пломбир и&nbsp;лимонный сорбет
-            </p>
-            <a class="button button--slider" href="#">Давайте оба!</a>
-          </li>
-          <li class="slider__item visually-hidden">
-            <img
-              class="slider__image"
-              src="/img/section-2/slider-item3.png"
-              width="1079"
-              height="854"
-              alt="Два рожка с мороженным"
-            />
-            <p class="slider__description">
-              Пломбир с&nbsp;помадкой и&nbsp;клубничный щербет
-            </p>
-            <a class="button button--slider" href="#">Давайте оба!</a>
-          </li>
-        </ul>
-        <ul class="slider__buttons">
-          <li class="buttons__item">
-            <button
-              class="buttons__link buttons__link--one buttons__link--active"
-            ></button>
-          </li>
-          <li class="buttons__item">
-            <button class="buttons__link buttons__link--two"></button>
-          </li>
-          <li class="buttons__item">
-            <button class="buttons__link buttons__link--three"></button>
-          </li>
-        </ul>
-      </section>
-      <section class="offer container">
-        <h2 class="visually-hidden">Наши выгодные предложения</h2>
-        <div class="offer__item offer__item--raspberry">
-          <h3 class="offer__title">Малинка даром!</h3>
-          <p class="offer__description">
-            При покупке 2&nbsp;кг любого фруктового мороженого, добавим
-            в&nbsp;ваш заказ банку малинового варенья бесплатно.
-          </p>
-          <a class="button button--offer" href="#">Хочу варенье!</a>
+              </form>
+            </li>
+            <li class="user__item">
+              <a class="user__link user__link--basket" href="#">Пусто</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container">
+          <p class="container__info">С&nbsp;10&nbsp;до&nbsp;20, ежедневно</p>
+          <a class="container__phone" href="tel:88124502525">8 812 450-25-25</a>
         </div>
-        <div class="offer__item offer__item--chocolate">
-          <h3 class="offer__title">Шоколадки даром!</h3>
-          <p class="offer__description">
-            При покупке 3&nbsp;кг пломбира, добавим в&nbsp;ваш заказ упаковку
-            вкуснейшей шоколадной присыпки совершенно бесплатно.
-          </p>
-          <a class="button button--offer" href="#">Хочу шоколадки!</a>
-        </div>
-      </section>
-      <section class="product-offer container">
+      </header>
+      <main class="main">
+        <h1 class="visually-hidden">Магазин мороженого &laquo;Gllacy&raquo;</h1>
+        <section class="slider">
+          <h2 class="visually-hidden">Слайдер</h2>
+          <ul class="slider__list">
+            <li class="slider__item slider__item--active">
+              <img
+                class="slider__image"
+                src="/img/section-2/slider-item1.png"
+                width="1045"
+                height="881"
+                alt="Два рожка с мороженным"
+              />
+              <p class="slider__description">
+                Крем-брюле и&nbsp;пломбир с&nbsp;малиновым джемом
+              </p>
+              <a class="button button--slider" href="#">Давайте оба!</a>
+            </li>
+            <li class="slider__item">
+              <img
+                class="slider__image"
+                src="/img/section-2/slider-item2.png"
+                width="1065"
+                height="859"
+                alt="Два рожка с мороженным"
+              />
+              <p class="slider__description">
+                Шоколадный пломбир и&nbsp;лимонный сорбет
+              </p>
+              <a class="button button--slider" href="#">Давайте оба!</a>
+            </li>
+            <li class="slider__item">
+              <img
+                class="slider__image"
+                src="/img/section-2/slider-item3.png"
+                width="1079"
+                height="854"
+                alt="Два рожка с мороженным"
+              />
+              <p class="slider__description">
+                Пломбир с&nbsp;помадкой и&nbsp;клубничный щербет
+              </p>
+              <a class="button button--slider" href="#">Давайте оба!</a>
+            </li>
+          </ul>
+          <ul class="slider__buttons">
+            <li class="buttons__item">
+              <button
+                class="buttons__link buttons__link--one buttons__link--active"
+              ></button>
+            </li>
+            <li class="buttons__item">
+              <button class="buttons__link buttons__link--two"></button>
+            </li>
+            <li class="buttons__item">
+              <button class="buttons__link buttons__link--three"></button>
+            </li>
+          </ul>
+        </section>
+        <section class="offer">
+          <h2 class="visually-hidden">Наши выгодные предложения</h2>
+          <div class="offer__item offer__item--raspberry">
+            <h3 class="offer__title">Малинка даром!</h3>
+            <p class="offer__description">
+              При покупке 2&nbsp;кг любого фруктового мороженого, добавим
+              в&nbsp;ваш заказ банку малинового варенья бесплатно.
+            </p>
+            <a class="button button--offer">Хочу варенье!</a>
+          </div>
+          <div class="offer__item offer__item--chocolate">
+            <h3 class="offer__title">Шоколадки даром!</h3>
+            <p class="offer__description">
+              При покупке 3&nbsp;кг пломбира, добавим в&nbsp;ваш заказ упаковку
+              вкуснейшей шоколадной присыпки совершенно бесплатно.
+            </p>
+            <a class="button button--offer">Хочу шоколадки!</a>
+          </div>
+        </section>
+        <section class="product">
         <h2 class="visually-hidden">Товары</h2>
-        <ul class="product-offer__list">
-          <li class="product-offer__item product-offer__item--hit">
+        <ul class="product__list">
+          <li class="product__item product__item--hit">
             <img
-              class="product-offer__image"
+              class="product__image"
               src="./img/section-4/ice-cream1.png"
               width="200"
               height="200"
               alt="Сливочное с апельсиновым джемом мороженое"
             />
-            <p class="product-offer__price">
+            <p class="product__price">
               310
-              <span class="product-offer__currency">Р</span>
-              <span class="product-offer__weight">/кг</span>
+              <span class="product__currency">Р</span>
+              <span class="product__weight">/кг</span>
             </p>
-            <h3 class="product-offer__description">
-              <a class="product-offer__text" href="#">
+            <h3 class="product__description">
+              <a class="product__text" href="#">
                 <span class="underline"
                   >Сливочное с<br> апельсиновым джемом и&nbsp;цитрусовой стружкой</span
                 >
               </a>
             </h3>
-            <div class="product-offer__modal">
-              <button class="button button--product-offer">Быстрый просмотр</button>
-            </div>
+            <button class="button button--product">Быстрый просмотр</button>           
           </li>
-          <li class="product-offer__item product-offer__item--hit">
+          <li class="product__item product__item--hit">
             <img
-              class="product-offer__image"
+              class="product__image"
               src="./img/section-4/ice-cream2.png"
               width="200"
               height="200"
               alt="Сливочно-кофейное мороженое"
             />
-            <p class="product-offer__price">
+            <p class="product__price">
               380
-              <span class="product-offer__currency">Р</span>
-              <span class="product-offer__weight">/кг</span>
+              <span class="product__currency">Р</span>
+              <span class="product__weight">/кг</span>
             </p>
-            <h3 class="product-offer__description">
-              <a class="product-offer__text" href="#">
+            <h3 class="product__description">
+              <a class="product__text" href="#">
                 <span class="underline"
                   >Сливочно-кофейное с<br> кусочками шоколада</span
                 >
               </a>
             </h3>
-            <div class="product-offer__modal">
-              <button class="button button--product-offer">Быстрый просмотр</button>
-            </div>
+            <button class="button button--product">Быстрый просмотр</button>            
           </li>
-          <li class="product-offer__item product-offer__item--hit">
+          <li class="product__item product__item--hit">
             <img
-              class="product-offer__image"
+              class="product__image"
               src="./img/section-4/ice-cream3.png"
               width="200"
               height="200"
               alt="Сливочно-клубничное мороженое"
             />
-            <p class="product-offer__price">
+            <p class="product__price">
               355
-              <span class="product-offer__currency">Р</span>
-              <span class="product-offer__weight">/кг</span>
+              <span class="product__currency">Р</span>
+              <span class="product__weight">/кг</span>
             </p>
-            <h3 class="product-offer__description">
-              <a class="product-offer__text" href="#">
+            <h3 class="product__description">
+              <a class="product__text" href="#">
                 <span class="underline"
                   >Сливочно-клубничное с<br> присыпкой из&nbsp;белого шоколада</span
                 >
               </a>
             </h3>
-            <div class="product-offer__modal">
-              <button class="button button--product-offer">Быстрый просмотр</button>
-            </div>
+            <button class="button button--product">Быстрый просмотр</button>            
           </li>
-          <li class="product-offer__item product-offer__item--hit">
+          <li class="product__item product__item--hit">
             <img
-              class="product-offer__image"
+              class="product__image"
               src="./img/section-4/ice-cream4.png"
               width="200"
               height="200"
               alt="Сливочное крем-брюле мороженое"
             />
-            <p class="product-offer__price">
+            <p class="product__price">
               415
-              <span class="product-offer__currency">Р</span>
-              <span class="product-offer__weight">/кг</span>
+              <span class="product__currency">Р</span>
+              <span class="product__weight">/кг</span>
             </p>
-            <h3 class="product-offer__description">
-              <a class="product-offer__text" href="#">
+            <h3 class="product__description">
+              <a class="product__text" href="#">
                 <span class="underline"
                   >Сливочное крем-брюле с&nbsp;карамельной<br> подливкой</span
                 >
               </a>
             </h3>
-            <div class="product-offer__modal">
-              <button class="button button--product-offer">Быстрый просмотр</button>
+            <button class="button button--product">Быстрый просмотр</button>           
             </li>
           </ul>
         </div>
       </section>
     </main>
+    </div>
   </body>
 </html>

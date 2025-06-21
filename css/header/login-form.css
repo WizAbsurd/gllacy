@@ -24,7 +24,7 @@
 }
 
 .login-form,
-.user-navigation__link--login:hover {
+.user__link--login:hover {
   color: #323232;
   background-color: #f8f7f5;
 }

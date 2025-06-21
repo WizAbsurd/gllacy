@@ -16,7 +16,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  max-width: 220px;
+  width: 220px;
 }
 
 .product-offer__item--hit::before {

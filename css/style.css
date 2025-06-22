@@ -1,10 +1,17 @@
 /* css imprts */
-@import url("./header/header.css");
+@import url("./header/header-navigation.css");
 @import url("./header/category.css");
 @import url("./header/user.css");
 @import url("./header/container.css");
 @import url("./header/search-form.css");
 @import url("./header/login-form.css");
+@import url("./main-header/button.css");
+@import url("./main-header/slider-container.css");
+@import url("./main-header/offer.css");
+@import url("./main-header/main.css");
+@import url("./main-header/offer__list.css");
+@import url("./main-header/product-offer.css");
+
 
 *,
 *::before,
@@ -56,23 +63,11 @@ a {
   overflow: hidden;
 }
 
-.button {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #ffffff;
-  border: 0;
-  background-color: #e9563a;
-  box-shadow: 0 2px 2px 0 rgba(7, 6, 0, 0.36);
-  text-shadow: 0 2px 5px #a0200b;
-}
-
-.button:hover {
-  background-image: linear-gradient(#f58669, #ec6f5e);
-  box-shadow: 0 1px 2px 0 #ac1000;
-}
-
-.button:active {
-  background-image: linear-gradient(#e74a35, #f26843);
-  box-shadow: 0 1px 2px 0 #ac1000;
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }

@@ -9,6 +9,9 @@
 @import url("./main-header/slider-container.css");
 @import url("./main-header/offer.css");
 @import url("./main-header/main.css");
+@import url("./main-header/offer__list.css");
+@import url("./main-header/product-offer.css");
+
 
 *,
 *::before,

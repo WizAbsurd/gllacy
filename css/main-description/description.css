@@ -1,0 +1,64 @@
+.main-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  max-width: 860px;
+  max-height: 372px;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-position: 50%;
+  background-image: url("/img/section-5/wafer-background.png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  color: #323232;
+}
+
+.main-description__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.main-description__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-top: 7px;
+  list-style: none;
+}
+
+.main-description__item {
+  max-width: 410px;
+  padding-top: 20px;
+  padding-left: 55px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.main-description__item--ice {
+  background-image: url("/img/section-5/ice-cream.svg");
+  background-repeat: no-repeat;
+}
+
+.main-description__item--cow {
+  background-image: url("/img/section-5/cow.svg");
+  background-repeat: no-repeat;
+}
+
+.main-description__item--eco {
+  background-image: url("/img/section-5/eco.svg");
+  background-repeat: no-repeat;
+}
+
+.main-description__item--thermo {
+  background-image: url("/img/section-5/thermometer.svg");
+  background-repeat: no-repeat;
+}

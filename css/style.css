@@ -12,6 +12,7 @@
 @import url("./main/main.css");
 @import url("./main/offer.css");
 @import url("./main/product.css");
+@import url("./main-description/description.css");
 
 *,
 *::before,

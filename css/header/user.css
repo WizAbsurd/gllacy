@@ -23,7 +23,7 @@
   font-size: 14px;
   line-height: 16px;
   border-radius: 16px;
-  background-color: rgba(256, 256, 256, 0.5);
+  background-color: rgba(256, 256, 256, 0.2);
 }
 
 .user__link--search {
@@ -98,5 +98,16 @@
   content: "";
   background-position: 50% 50%;
   background-image: url("/img/section-1/basket.svg");
+  background-repeat: no-repeat;
+}
+
+.user__link--basket:hover {
+  color: #323232;
+  background-color: #f8f7f5;
+}
+
+.user__link--basket:hover:after {
+  background-position: 50% 50%;
+  background-image: url("/img/section-1/basket-full.svg");
   background-repeat: no-repeat;
 }

@@ -13,7 +13,6 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="wrapper">
       <header class="header">
         <nav class="header__navigation">
           <a class="logo" href="index.html">
@@ -131,7 +130,7 @@
       </header>
       <main class="main">
         <h1 class="visually-hidden">Магазин мороженого &laquo;Gllacy&raquo;</h1>
-        <section class="slider">
+        <section class="slider wrapper">
           <h2 class="visually-hidden">Слайдер</h2>
           <ul class="slider__list">
             <li class="slider__item slider__item--active">
@@ -188,7 +187,7 @@
             </li>
           </ul>
         </section>
-        <section class="offer">
+        <section class="offer wrapper">
           <h2 class="visually-hidden">Наши выгодные предложения</h2>
           <div class="offer__item offer__item--raspberry">
             <h3 class="offer__title">Малинка даром!</h3>
@@ -208,7 +207,7 @@
           </div>
         </section>
 
-        <section class="product">
+        <section class="product wrapper">
           <h2 class="visually-hidden">Наши товары</h2>
           <ul class="product__list">
             <li class="product__item product__item--hit">
@@ -313,7 +312,7 @@
             </li>
           </ul>
         </section>
-        <section class="main-description">
+        <section class="main-description wrapper">
           <h2 class="visually-hidden">Наши приемущества</h2>
           <div class="description">
             <p class="main-description__title">
@@ -347,7 +346,7 @@
             </ul>
           </div>
         </section>
-        <section class="blog">
+        <section class="blog wrapper">
           <div class="blog-news blog--wrapper">
             <h2 class="visually-hidden">Информация о&nbsp;блоге</h2>
             <h3 class="blog-news__title">Новое в&nbsp;нашем блоге</h3>
@@ -385,7 +384,32 @@
             </div>
           </div>
         </section>
+        <section class="contacts">
+          <h2 class="visually-hidden">Контактная информация</h2>
+          <div class="contacts__container">
+            <div class="contacts__info">
+              <p class="contacts__description">
+                Адрес главного офиса<br />
+                и&nbsp;онлайн-магазина:
+                <p class="contacts__adress">
+                  ул. Большая Конюшенная<br />
+                  19/8, Санкт-Петербург
+                </p>
+              </p>
+              <p class="contacts__description">Для заказов по&nbsp;телефону:<br>
+                <b class="contacts__phone">8 812 450-25-25</b><br>
+                (с&nbsp;10&nbsp;до&nbsp;20&nbsp;ежедневно)               
+              </p>
+              <a class="button button--contacts">Форма обратной связи</a>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <img class="contacts__map--image" src="/img/section-7/map.png" width="900" height="430" alt="ул. Большая Конюшенная 19/8, Санкт-Петербург">
+          </div>
+          <div class="contacts__map--marker">
+            <img src="/img/section-7/map-marker.png" class="map-marker__image" width="218" height="142" alt="Метка на карте">
+          </div>
+        </section>
       </main>
-    </div>
   </body>
 </html>

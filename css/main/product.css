@@ -13,6 +13,7 @@
 
 .product__item {
   z-index: 1;
+  z-index: 1;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -25,8 +26,6 @@
 
 .product__item--hit::before {
   z-index: 1;
-  top: 8px;
-  left: 10px;
   position: absolute;
   display: block;
   width: 60px;
@@ -40,6 +39,7 @@
 
 .product__image {
   position: relative;
+  align-self: center;
   top: 8px;
   margin-bottom: 15px;
   align-self: center;

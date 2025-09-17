@@ -1,7 +1,6 @@
 .product {
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
 }
 
 .product__list {
@@ -16,7 +15,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 220px;
+  width: 215px;
   background-repeat: no-repeat;
 }
 
@@ -80,7 +79,6 @@
 .product__description {
   min-height: 66px;
   margin: 0;
-  margin-bottom: 18px;
   text-align: center;
 }
 
@@ -101,7 +99,8 @@
   align-items: center;
   justify-content: center;
   z-index: 10;
-  left: 12px;
+  top: 15px;
+  left: 10px;
   width: 195px;
   padding-top: 10px;
   padding-right: 10px;

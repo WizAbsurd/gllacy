@@ -1,16 +1,16 @@
 /* css imprts */
+@import url("./header/header.css");
 @import url("./header/header-navigation.css");
 @import url("./header/category.css");
 @import url("./header/user.css");
 @import url("./header/container.css");
 @import url("./header/search-form.css");
 @import url("./header/login-form.css");
-@import url("./main-header/button.css");
-@import url("./main-header/slider-container.css");
-@import url("./main-header/offer.css");
-@import url("./main-header/main.css");
-@import url("./main-header/offer__list.css");
-@import url("./main-header/product-offer.css");
+@import url("./main/button.css");
+@import url("./main/slider.css");
+@import url("./main/offer.css");
+@import url("./main/product.css");
+@import url("./main-description/description.css");
 
 *,
 *::before,

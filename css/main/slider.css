@@ -27,7 +27,7 @@
 .slider__image {
   position: absolute;
   z-index: -1;
-  top: -126px;
+  top: -146px;
   left: -7%;
 }
 
@@ -43,7 +43,9 @@
 }
 
 .button--slider {
+  padding-top: 10px;
   padding-right: 40px;
+  padding-bottom: 10px;
   padding-left: 40px;
   font-size: 32px;
   line-height: 44px;

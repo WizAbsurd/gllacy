@@ -1,0 +1,116 @@
+.footer {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 860px;
+}
+
+.footer-social__list {
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-repeat: no-repeat;
+}
+
+.footer-social__link {
+  width: 38px;
+  height: 38px;
+  display: block;
+  opacity: 0.8;
+}
+
+.footer-social__item:hover .footer-social__link {
+  opacity: 1;
+}
+
+.footer-social__item:active .footer-social__link {
+  opacity: 0.9;
+}
+
+.footer-social__link--twitter {
+  background-image: url("/img/section-8/tw.png");
+}
+
+.footer-social__link--instagram {
+  background-image: url("/img/section-8/inst.png");
+}
+
+.footer-social__link--facebook {
+  background-image: url("/img/section-8/fb.png");
+}
+
+.footer-social__link--vkontakte {
+  background-image: url("/img/section-8/vk.png");
+}
+
+.footer-content__list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 330px;
+  list-style: none;
+  background-repeat: no-repeat;
+}
+
+.footer-content__item {
+  position: relative;
+  padding-left: 22px;
+  min-width: 140px;
+}
+
+.footer-content__link {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-content__link:hover {
+  color: #ffbc9e;
+  border-bottom: 1px solid rgba(255, 188, 158, 0.5);
+}
+
+.footer-content__link:active {
+  color: #e84d37;
+  border-bottom: 1px solid rgba(232, 78, 7, 0.5);
+}
+
+.footer-content__link--heart {
+  font-weight: 700;
+}
+
+.footer-content__item--heart::before {
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  width: 15px;
+  height: 13px;
+  content: "";
+  background-image: url("/img/section-8/heart-icon.svg");
+}
+
+.footer-copyright__description {
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.footer-copyright__link--academy {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-copyright__link--academy:hover {
+  color: #ffbc9e;
+  border-bottom: 1px solid rgba(255, 188, 158, 0.5);
+}
+
+.footer-copyright__link--academy:active {
+  color: #e84d37;
+  border-bottom: 1px solid rgba(232, 78, 7, 0.5);
+}

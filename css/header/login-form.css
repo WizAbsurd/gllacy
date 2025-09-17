@@ -2,16 +2,15 @@
   position: absolute;
   top: 37px;
   right: 0;
-  z-index: 10;
-  display: none;
-  box-sizing: border-box;
-  min-width: 277px;
+  z-index: 1;
   padding-top: 20px;
   padding-right: 17px;
   padding-bottom: 20px;
   padding-left: 17px;
-  color: #323232;
+  display: none;
+  min-width: 277px;
   border-radius: 5px;
+  color: #323232;
   background-color: #f8f7f4;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
@@ -30,9 +29,9 @@
 }
 
 .login-form__input {
+  padding-left: 14px;
   width: 100%;
   min-height: 42px;
-  padding-left: 14px;
   font-size: 14px;
   line-height: 24px;
 }

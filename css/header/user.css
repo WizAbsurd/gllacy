@@ -49,7 +49,6 @@
   border-radius: 50%;
   background-position: 50% 50%;
   background-image: url("/img/section-1/loupe-black.svg");
-  background-repeat: no-repeat;
 }
 
 .user__item:hover .search-form,
@@ -78,7 +77,6 @@
 .user__link--login:hover:after {
   background-position: 50% 50%;
   background-image: url("/img/section-1/entrance-black.svg");
-  background-repeat: no-repeat;
 }
 
 .user__link--basket {
@@ -107,5 +105,4 @@
 .user__link--basket:hover:after {
   background-position: 50% 50%;
   background-image: url("/img/section-1/basket-full.svg");
-  background-repeat: no-repeat;
 }

@@ -2,6 +2,7 @@
   min-width: 900px;
   max-height: 430px;
   margin: 0 auto;
+  padding-top: 40px;
   background-repeat: no-repeat;
 }
 
@@ -11,9 +12,10 @@
 
 .contacts__info {
   position: relative;
+  z-index: 1;
   max-width: 302px;
   top: 62px;
-  left: 540px;
+  left: 580px;
   padding-top: 30px;
   padding-right: 25px;
   padding-bottom: 30px;
@@ -48,8 +50,16 @@
   height: 44px;
 }
 
+.contacts__map--image {
+  position: absolute;
+}
+
+.contacts__map iframe {
+  position: relative;
+}
+
 .contacts__map--marker {
   position: relative;
   bottom: 300px;
-  left: 175px;
+  left: 185px;
 }

@@ -1,8 +1,7 @@
 .contacts {
+  margin: 0 auto;
   min-width: 900px;
   max-height: 430px;
-  margin: 0 auto;
-  padding-top: 40px;
   background-repeat: no-repeat;
 }
 
@@ -13,13 +12,13 @@
 .contacts__info {
   position: relative;
   z-index: 1;
-  max-width: 302px;
   top: 62px;
   left: 540px;
   padding-top: 30px;
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
+  max-width: 302px;
   border-radius: 16px;
   background-color: #ffffff;
 }
@@ -42,10 +41,10 @@
 }
 
 .button--contacts {
+  margin-top: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 21px;
   width: 252px;
   height: 44px;
 }

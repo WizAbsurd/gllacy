@@ -1,6 +1,6 @@
 .header {
-  min-width: 860px;
   padding-top: 10px;
+  min-width: 860px;
 }
 
 .header__navigation {
@@ -13,12 +13,12 @@
 }
 
 .header__list {
-  display: flex;
   margin: 0;
   padding: 0;
   padding-top: 10px;
-  font-weight: 700;
+  display: flex;
   list-style: none;
+  font-weight: 700;
 }
 
 .header__item {
@@ -26,11 +26,11 @@
 }
 
 .header__link {
-  display: block;
   padding-top: 5px;
   padding-right: 14px;
   padding-bottom: 5px;
   padding-left: 14px;
+  display: block;
 }
 
 .header__link:hover {

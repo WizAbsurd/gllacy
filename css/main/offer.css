@@ -6,12 +6,12 @@
 .offer__item {
   display: flex;
   flex-direction: column;
-  max-width: 420px;
-  min-height: 228px;
   padding-top: 20px;
   padding-right: 22px;
   padding-bottom: 20px;
   padding-left: 22px;
+  max-width: 420px;
+  min-height: 228px;
   border-radius: 16px;
   background-position: 0;
   background-repeat: no-repeat;
@@ -41,9 +41,9 @@
 }
 
 .button--offer {
-  align-self: flex-end;
   padding-top: 10px;
   padding-right: 22px;
   padding-bottom: 10px;
   padding-left: 22px;
+  align-self: flex-end;
 }

@@ -11,10 +11,10 @@
 
 .slider__item {
   position: relative;
+  padding-top: 268px;
   display: none;
   flex-direction: column;
   align-items: center;
-  padding-top: 268px;
 }
 
 .slider__item--active {
@@ -30,9 +30,9 @@
 
 .slider__description {
   position: relative;
-  max-width: 700px;
   margin: 0;
   padding-bottom: 30px;
+  max-width: 700px;
   text-align: center;
   font-size: 60px;
   line-height: 60px;
@@ -51,11 +51,11 @@
 
 .slider__buttons {
   position: absolute;
-  display: flex;
   bottom: 20px;
   margin: 0;
   padding: 0;
   gap: 8px;
+  display: flex;
   list-style: none;
 }
 

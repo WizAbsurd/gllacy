@@ -5,15 +5,15 @@
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  max-width: 860px;
-  min-height: 372px;
   padding-top: 25px;
   padding-right: 20px;
   padding-bottom: 25px;
   padding-left: 20px;
+  gap: 7px;
+  display: flex;
+  flex-direction: column;
+  max-width: 860px;
+  min-height: 372px;
   background-position: 50%;
   background-image: url("/img/section-5/wafer-background.png");
   background-repeat: no-repeat;
@@ -29,19 +29,19 @@
 }
 
 .main-description__list {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 .main-description__item {
-  max-width: 410px;
-  min-height: 126px;
   padding-top: 15px;
   padding-left: 55px;
+  max-width: 410px;
+  min-height: 126px;
   font-size: 16px;
   line-height: 22px;
   background-repeat: no-repeat;

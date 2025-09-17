@@ -13,6 +13,7 @@
 @import url("./main/description.css");
 @import url("./main/blog.css");
 @import url("./main/contacts.css");
+@import url("./footer/footer.css");
 
 *,
 *::before,
@@ -70,6 +71,7 @@ a {
   align-items: center;
   max-width: 900px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .main {

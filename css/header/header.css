@@ -1,5 +1,6 @@
 .header {
-  width: 860px;
+  min-width: 860px;
+  padding-top: 10px;
 }
 
 .header__navigation {

@@ -12,7 +12,7 @@
   min-height: 372px;
   padding-top: 25px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   padding-left: 20px;
   background-position: 50%;
   background-image: url("/img/section-5/wafer-background.png");
@@ -34,12 +34,14 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  padding-top: 10px;
   list-style: none;
 }
 
 .main-description__item {
   max-width: 410px;
-  padding-top: 20px;
+  min-height: 126px;
+  padding-top: 15px;
   padding-left: 55px;
   font-size: 16px;
   line-height: 22px;

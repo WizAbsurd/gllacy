@@ -1,9 +1,6 @@
 .slider {
   position: relative;
-  min-width: 900px;
-  margin: 0 auto;
   padding: 0;
-  padding-bottom: 40px;
 }
 
 .slider__list {
@@ -28,7 +25,7 @@
   position: absolute;
   z-index: -1;
   top: -146px;
-  left: -7%;
+  left: -95px;
 }
 
 .slider__description {

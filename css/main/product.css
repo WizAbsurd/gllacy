@@ -13,6 +13,7 @@
 
 .product__item {
   z-index: 1;
+  z-index: 1;
   position: relative;
   display: flex;
   flex-direction: column;

@@ -14,16 +14,15 @@
   padding-left: 22px;
   border-radius: 16px;
   background-position: 0;
+  background-repeat: no-repeat;
 }
 
 .offer__item--raspberry {
   background-image: url("/img/section-3/raspberry-background.png");
-  background-repeat: no-repeat;
 }
 
 .offer__item--chocolate {
   background-image: url("/img/section-3/chocolate-backgroung.png");
-  background-repeat: no-repeat;
 }
 
 .offer__title {

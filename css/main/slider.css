@@ -1,8 +1,6 @@
 .slider {
   position: relative;
-  margin: 0 auto;
   padding: 0;
-  padding-bottom: 40px;
 }
 
 .slider__list {
@@ -27,7 +25,7 @@
   position: absolute;
   z-index: -1;
   top: -146px;
-  left: -11%;
+  left: -95px;
 }
 
 .slider__description {

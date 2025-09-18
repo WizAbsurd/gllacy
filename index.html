@@ -467,5 +467,21 @@
           <p class="footer-copyright__description">Сделано&nbsp;в <a class="footer-copyright__link--academy" href="#">HTML Academy</a> &copy; 2025</p>
         </div>
       </footer>
+      <section class="feedback modal">
+        <h2 class="feedback__title">Мы&nbsp;обязательно вам ответим!</h2>
+        <form class="feedback__form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="feedback-name">Ваше имя</label>
+          <input class="feedback__input--name" type="text" name="feedback-name" placeholder="Как вас зовут?" id="feedback-name">
+          <label class="visually-hidden" for="feedback-email">Ваша почта</label>
+          <input class="feedback__input--email" type="email" name="feedback-email" placeholder="Ваша почта для ответа?" id="feedback-email">
+          <label class="visually-hidden" for="feedback-text">Текст письма</label>
+          <textarea class="feedback__input--text" name="feedback-text" placeholder="Напишите что-нибудь..." id="feedback-text"></textarea>
+          <button class="button button--feedback" type="submit">Отправить</button>
+        </form>
+        <button class="feedback__close" type="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+      </section>
+      <div class="blackout"></div>
   </body>
 </html>

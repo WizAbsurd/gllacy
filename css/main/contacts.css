@@ -1,6 +1,7 @@
 .contacts {
-  max-height: 430px;
   margin: 0 auto;
+  min-width: 900px;
+  max-height: 430px;
   background-repeat: no-repeat;
 }
 
@@ -13,11 +14,11 @@
   z-index: 1;
   top: 62px;
   left: 540px;
-  max-width: 302px;
   padding-top: 30px;
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
+  max-width: 302px;
   border-radius: 16px;
   background-color: #ffffff;
 }
@@ -40,16 +41,12 @@
 }
 
 .button--contacts {
+  margin-top: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 21px;
   width: 252px;
   height: 44px;
-}
-
-.contacts__map {
-  position: relative;
 }
 
 .contacts__map--image {
@@ -63,5 +60,5 @@
 .contacts__map--marker {
   position: relative;
   bottom: 300px;
-  left: 175px;
+  left: 185px;
 }

@@ -17,6 +17,18 @@
   align-items: center;
 }
 
+.slider__item--one {
+  background-color: #849d8f;
+}
+
+.slider__item--two {
+  background-color: #8996a6;
+}
+
+.slider__item--three {
+  background-color: #9e8c85;
+}
+
 .slider__item--active {
   display: flex;
 }

@@ -426,29 +426,43 @@
       <footer class="footer">
         <ul class="footer-social__list">
           <li class="footer-social__item">
-            <a class="footer-social__link footer-social__link--twitter" href="#">
+            <a
+              class="footer-social__link footer-social__link--twitter"
+              href="#"
+            >
               <span class="visually-hidden">Twitter</span>
             </a>
           </li>
           <li class="footer-social__item">
-            <a class="footer-social__link footer-social__link--instagram" href="#">
+            <a
+              class="footer-social__link footer-social__link--instagram"
+              href="#"
+            >
               <span class="visually-hidden">Instagram</span>
             </a>
           </li>
           <li class="footer-social__item">
-            <a class="footer-social__link footer-social__link--facebook" href="#">
+            <a
+              class="footer-social__link footer-social__link--facebook"
+              href="#"
+            >
               <span class="visually-hidden">Facebook</span>
             </a>
           </li>
           <li class="footer-social__item">
-            <a class="footer-social__link footer-social__link--vkontakte" href="#">
+            <a
+              class="footer-social__link footer-social__link--vkontakte"
+              href="#"
+            >
               <span class="visually-hidden">ВКонтакте</span>
             </a>
           </li>
         </ul>
         <ul class="footer-content__list">
           <li class="footer-content__item footer-content__item--heart">
-            <a class="footer-content__link footer-content__link--heart" href="#">Для поставщиков</a>
+            <a class="footer-content__link footer-content__link--heart" href="#"
+              >Для поставщиков</a
+            >
           </li>
           <li class="footer-content__item">
             <a class="footer-content__link" href="#">Наши документы</a>
@@ -462,26 +476,58 @@
         </ul>
         <div class="footer-copyright">
           <a class="footer-copyright__link" href="https://htmlacademy.ru/">
-            <img class="footer-copyright__image" src="/img/section-8/logo-htmlacademy-small.png" width="108" height="39" alt="HTML Academy">
+            <img
+              class="footer-copyright__image"
+              src="/img/section-8/logo-htmlacademy-small.png"
+              width="108"
+              height="39"
+              alt="HTML Academy"
+            />
           </a>
-          <p class="footer-copyright__description">Сделано&nbsp;в <a class="footer-copyright__link--academy" href="#">HTML Academy</a> &copy; 2025</p>
+          <p class="footer-copyright__description">
+            Сделано&nbsp;в
+            <a class="footer-copyright__link--academy" href="#">HTML Academy</a>
+            &copy; 2025
+          </p>
         </div>
       </footer>
-      <section class="feedback modal">
-        <h2 class="feedback__title">Мы&nbsp;обязательно вам ответим!</h2>
-        <form class="feedback__form" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="visually-hidden" for="feedback-name">Ваше имя</label>
-          <input class="feedback__input--name" type="text" name="feedback-name" placeholder="Как вас зовут?" id="feedback-name">
-          <label class="visually-hidden" for="feedback-email">Ваша почта</label>
-          <input class="feedback__input--email" type="email" name="feedback-email" placeholder="Ваша почта для ответа?" id="feedback-email">
-          <label class="visually-hidden" for="feedback-text">Текст письма</label>
-          <textarea class="feedback__input--text" name="feedback-text" placeholder="Напишите что-нибудь..." id="feedback-text"></textarea>
-          <button class="button button--feedback" type="submit">Отправить</button>
-        </form>
-        <button class="feedback__close" type="button">
-          <span class="visually-hidden">Закрыть</span>
-        </button>
-      </section>
-      <div class="blackout"></div>
+    </div>
+    <section class="feedback modal">
+      <h2 class="feedback__title">Мы&nbsp;обязательно вам ответим!</h2>
+      <form
+        class="feedback-form"
+        action="https://echo.htmlacademy.ru/"
+        method="post"
+      >
+        <label class="visually-hidden" for="feedback-name">Ваше имя</label>
+        <input
+          class="feedback-form__input feedback-form__input--name"
+          type="text"
+          name="feedback-name"
+          placeholder="Как вас зовут?"
+          id="feedback-name"
+        />
+        <label class="visually-hidden" for="feedback-email">Ваша почта</label>
+        <input
+          class="feedback-form__input feedback-form__input--email"
+          type="email"
+          name="feedback-email"
+          placeholder="Ваша почта для ответа?"
+          id="feedback-email"
+        />
+        <label class="visually-hidden" for="feedback-text">Текст письма</label>
+        <textarea
+          class="feedback-form__input feedback-form__input--text"
+          name="feedback-text"
+          placeholder="Напишите что-нибудь..."
+          id="feedback-text"
+        ></textarea>
+      </form>
+      <button class="button button--feedback" type="submit">Отправить</button>
+      <button class="feedback__close" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+    </section>
+    <div class="blackout"></div>
   </body>
 </html>

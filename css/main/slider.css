@@ -61,7 +61,7 @@
   border-radius: 32px;
 }
 
-.slider__buttons {
+.slider-buttons {
   position: absolute;
   bottom: 20px;
   margin: 0;
@@ -71,7 +71,7 @@
   list-style: none;
 }
 
-.buttons__link {
+.slider-buttons__link {
   width: 20px;
   height: 20px;
   background-color: transparent;
@@ -79,11 +79,11 @@
   border-radius: 50%;
 }
 
-.buttons__link--active,
-.buttons__link:active {
+.slider-buttons__link--active,
+.slider-buttons__link:active {
   background-color: #ffffff;
 }
 
-.buttons__link:not(.buttons__link--active):not(:active):hover {
+.slider-buttons__link:not(.slider-buttons__link--active):not(:active):hover {
   background-color: rgba(256, 256, 256, 0.5);
 }

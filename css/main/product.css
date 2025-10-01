@@ -21,7 +21,10 @@
 }
 
 .product__item:hover .product__hover {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 17px;
 }
 
 .product__item--hit::before {
@@ -95,23 +98,21 @@
   z-index: -1;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   display: none;
-  min-width: 215px;
+  min-width: 240px;
   min-height: 357px;
   height: calc(100% + 40px);
   border-radius: 5px;
   background-color: rgba(256, 256, 256, 0.2);
   box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.2);
+  transform: translateX(-50%);
 }
 
 .button--product {
-  position: absolute;
   display: none;
   align-items: center;
   justify-content: center;
-  bottom: 17px;
-  left: 10px;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;

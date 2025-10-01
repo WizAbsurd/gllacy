@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Онлайн-магазин мороженого Глэйси</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__navigation">
+          <a class="logo" href="index.html">
+            <img
+              src="/img/section-1/logo.svg"
+              width="154"
+              height="64"
+              alt="Логотип онлайн-магазина мороженого Глэйси"
+            />
+          </a>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="/catalog.html">
+                <span class="underline">Каталог</span></a
+              >
+              <ul class="category">
+                <li class="category__item category__item--sign">
+                  <b class="category__title category__title--underlining"
+                    >Новинки</b
+                  >
+                </li>
+                <li class="category__item">
+                  <a class="category__link" href="#">Сливочное</a>
+                </li>
+                <li class="category__item">
+                  <a class="category__link" href="#">Щербеты</a>
+                </li>
+                <li class="category__item">
+                  <a class="category__link" href="#">Фруктовый лёд</a>
+                </li>
+                <li class="category__item">
+                  <a class="category__link" href="#">Мелорин</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                <span class="underline">Доставка и&nbsp;оплата</span></a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#"
+                ><span class="underline">О&nbsp;Компании</span></a
+              >
+            </li>
+          </ul>
+          <ul class="user">
+            <li class="user__item">
+              <a class="user__link user__link--search" href="#"></a>
+              <form
+                class="search-form"
+                action="https://echo.htmlacademy.ru/"
+                method="POST"
+              >
+                <label class="visually-hidden" for="search-input"
+                  >Поиск по&nbsp;сайту</label
+                >
+                <input
+                  id="search-input"
+                  class="search-form__input"
+                  type="search"
+                  placeholder="Что ищем?"
+                />
+              </form>
+            </li>
+            <li class="user__item">
+              <a class="user__link user__link--login" href="#">Вход</a>
+              <form
+                class="login-form"
+                action="https://echo.htmlacademy.ru/"
+                method="POST"
+              >
+                <div class="login-form__form-wrapper">
+                  <label class="visually-hidden" for="login-email"
+                    >Электронная почта</label
+                  >
+                  <input
+                    id="login-email"
+                    class="login-form__input login-form__input--email"
+                    type="email"
+                    placeholder="Электронная почта"
+                  />
+                  <label class="visually-hidden" for="login-pass">Пароль</label>
+                  <input
+                    class="login-form__input login-form__input--pass"
+                    id="login-pass"
+                    type="password"
+                    placeholder="Пароль"
+                  />
+                  <div class="login-form__wrapper">
+                    <button class="button button--login-form" type="button">
+                      Войти
+                    </button>
+                    <div class="login-form__link-wrapper">
+                      <a class="login-form__link" href="#">
+                        <span class="underline">Забыли пароль?</span>
+                      </a>
+                      <a class="login-form__link" href="#">
+                        <span class="underline">Новая регистрация</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </li>
+            <li class="user__item">
+              <a class="user__link user__link--basket" href="#">Пусто</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container">
+          <p class="container__info">С&nbsp;10&nbsp;до&nbsp;20, ежедневно</p>
+          <a class="container__phone" href="tel:88124502525">8 812 450-25-25</a>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>

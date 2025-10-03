@@ -1,0 +1,39 @@
+.main-catalog {
+  padding-top: 20px;
+}
+
+.main-catalog__title {
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.catalog-breadcrumbs__list {
+  display: flex;
+  max-width: 222px;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+.catalog-breadcrumbs__item {
+  position: relative;
+  padding-right: 14px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.catalog-breadcrumbs__item:not(:last-child)::after {
+  content: "»";
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto;
+}
+
+.catalog-breadcrumbs__button {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}

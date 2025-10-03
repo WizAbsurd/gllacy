@@ -44,6 +44,10 @@
   background-color: #f6b5a5;
 }
 
+.category__link--active {
+  background-color: #d07058;
+}
+
 .category__title--underlining {
   padding-top: 8px;
   padding-right: 19px;

@@ -26,8 +26,8 @@
           </a>
           <ul class="header__list">
             <li class="header__item">
-              <a class="header__link" href="/catalog.html">
-                <span class="underline">Каталог</span></a
+              <a class="header__link header__link--active" href="/catalog.html">
+                <span class="underline underline--active">Каталог</span></a
               >
               <ul class="category">
                 <li class="category__item category__item--sign">
@@ -36,7 +36,9 @@
                   >
                 </li>
                 <li class="category__item">
-                  <a class="category__link" href="#">Сливочное</a>
+                  <a class="category__link category__link--active" href="#"
+                    >Сливочное</a
+                  >
                 </li>
                 <li class="category__item">
                   <a class="category__link" href="#">Щербеты</a>
@@ -120,7 +122,101 @@
               </form>
             </li>
             <li class="user__item">
-              <a class="user__link user__link--basket" href="#">Пусто</a>
+              <a
+                class="user__link user__link--basket user__link--basket-active"
+                href="#"
+                >2&nbsp;товара</a
+              >
+              <div class="user-popup">
+                <table class="user-popup__table">
+                  <caption class="visually-hidden">
+                    Товары в&nbsp;корзине:
+                  </caption>
+                  <tbody>
+                    <tr class="user-popup__item">
+                      <td class="user-popup__item-td">
+                        <button
+                          class="user-popup__item-td user-popup__item-td--remove-button"
+                          type="button"
+                        >
+                          Удалить
+                        </button>
+                      </td>
+                      <td
+                        class="user-popup__item-td user-popup__item-td--image"
+                      >
+                        <img
+                          src="./img/section-10/ice_cream1.gif"
+                          width="33"
+                          height="33"
+                          alt="Фото пломбира с апельсиновым джемом"
+                        />
+                      </td>
+                      <td class="user-popup__item-td user-popup__item-td--name">
+                        Пломбир с&nbsp;апельсиновым джемом
+                      </td>
+                      <td
+                        class="user-popup__item-td user-popup__item-td--weight"
+                      >
+                        1,5&nbsp;кг x
+                        <span>200&nbsp;руб.</span>
+                      </td>
+                      <td
+                        class="user-popup__item-td user-popup__item-td--price"
+                      >
+                        300&nbsp;руб.
+                      </td>
+                    </tr>
+                    <tr class="user-popup__item">
+                      <td class="user-popup__item-td user-popup__item-td">
+                        <button
+                          class="user-popup__item-td user-popup__item-td--remove-button"
+                          type="button"
+                        >
+                          Удалить
+                        </button>
+                      </td>
+                      <td
+                        class="user-popup__item-td user-popup__item-td--image"
+                      >
+                        <img
+                          src="./img/section-10/ice_cream2.gif"
+                          width="33"
+                          height="33"
+                          alt="Фото клубничного пломбира с присыпкой из белого шоколада"
+                        />
+                      </td>
+                      <td class="user-popup__item-td user-popup__item-td--name">
+                        Клубничный пломбир с&nbsp;присыпкой из&nbsp;белого
+                        шоколада
+                      </td>
+                      <td
+                        class="user-popup__item-td user-popup__item-td--weight"
+                      >
+                        1,5&nbsp;кг x
+                        <span>300&nbsp;руб.</span>
+                      </td>
+                      <td
+                        class="user-popup__item-td user-popup__item-td--price"
+                      >
+                        450&nbsp;руб.
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr class="user-popup__item-td user-popup__item-td--total">
+                      <td colspan="5">
+                        <div class="user-popup__item-td--total-item">
+                          Итого 750&nbsp;руб.
+                        </div>
+                      </td>
+                    </tr>
+                  </tfoot>
+                </table>
+                <button class="button button--user-popup">
+                  Оформить заказ
+                </button>
+              </div>
             </li>
           </ul>
         </nav>
@@ -129,6 +225,83 @@
           <a class="container__phone" href="tel:88124502525">8 812 450-25-25</a>
         </div>
       </header>
+      <main class="main-catalog">
+        <section class="catalog-breadcrumbs">
+          <h2 class="visually-hidden">Навигация по сайту</h2>
+          <ul class="catalog-breadcrumbs__list">
+            <li class="catalog-breadcrumbs__item">
+              <a class="catalog-breadcrumbs__button" href="./index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="catalog-breadcrumbs__item">
+              <a class="catalog-breadcrumbs__button" href="./catalog.html"
+                >Каталог</a
+              >
+            </li>
+            <li class="catalog-breadcrumbs__item">
+              <a class="catalog-breadcrumbs__button">Сливочное</a>
+            </li>
+          </ul>
+        </section>
+        <h1 class="main-catalog__title">Сливочное мороженое</h1>
+      </main>
+      <footer class="footer">
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link social-list__link--twitter" href="#">
+              <span class="visually-hidden">Twitter</span>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link social-list__link--instagram" href="#">
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link social-list__link--facebook" href="#">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link social-list__link--vkontakte" href="#">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="content-list">
+          <li class="content-list__item content-list__item--heart">
+            <a class="content-list__link content-list__link--heart" href="#"
+              >Для поставщиков</a
+            >
+          </li>
+          <li class="content-list__item">
+            <a class="content-list__link" href="#">Наши документы</a>
+          </li>
+          <li class="content-list__item">
+            <a class="content-list__link" href="#">О&nbsp;производстве</a>
+          </li>
+          <li class="content-list__item">
+            <a class="content-list__link" href="#">Экологические стандарты</a>
+          </li>
+        </ul>
+        <div class="copyright">
+          <a class="copyright__link" href="https://htmlacademy.ru/">
+            <img
+              class="copyright__image"
+              src="/img/section-8/logo-htmlacademy-small.png"
+              width="108"
+              height="39"
+              alt="HTML Academy"
+            />
+          </a>
+          <p class="copyright__description">
+            Сделано&nbsp;в
+            <a class="copyright__link--academy" href="#">HTML Academy</a>
+            &copy; 2025
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

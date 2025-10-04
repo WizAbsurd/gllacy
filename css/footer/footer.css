@@ -69,12 +69,14 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.content-list__link:hover {
+.content-list__link:hover,
+.catalog-breadcrumbs__button:hover {
   color: #ffbc9e;
   border-bottom: 1px solid rgba(255, 188, 158, 0.5);
 }
 
-.content-list__link:active {
+.content-list__link:active,
+.catalog-breadcrumbs__button:active {
   color: #e84d37;
   border-bottom: 1px solid rgba(232, 78, 7, 0.5);
 }

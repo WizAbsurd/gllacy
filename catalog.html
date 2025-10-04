@@ -127,23 +127,22 @@
                 href="#"
                 >2&nbsp;товара</a
               >
-              <div class="user-popup">
-                <table class="user-popup__table">
+              <div class="cart-popup">
+                <table class="cart-popup__table">
                   <caption class="visually-hidden">
                     Товары в&nbsp;корзине:
                   </caption>
                   <tbody>
-                    <tr class="user-popup__item">
-                      <td class="user-popup__item-td">
+                    <tr class="cart-popup__item">
+                      <td class="cart-popup__item-col">
                         <button
-                          class="user-popup__item-td user-popup__item-td--remove-button"
+                          class="cart-popup__item-col close-button"
                           type="button"
-                        >
-                          Удалить
-                        </button>
+                          aria-label="удалить товар"
+                        ></button>
                       </td>
                       <td
-                        class="user-popup__item-td user-popup__item-td--image"
+                        class="cart-popup__item-col cart-popup__item-col--image"
                       >
                         <img
                           src="./img/section-10/ice_cream1.gif"
@@ -152,32 +151,33 @@
                           alt="Фото пломбира с апельсиновым джемом"
                         />
                       </td>
-                      <td class="user-popup__item-td user-popup__item-td--name">
+                      <td
+                        class="cart-popup__item-col cart-popup__item-col--name"
+                      >
                         Пломбир с&nbsp;апельсиновым джемом
                       </td>
                       <td
-                        class="user-popup__item-td user-popup__item-td--weight"
+                        class="cart-popup__item-col cart-popup__item-col--weight"
                       >
                         1,5&nbsp;кг x
                         <span>200&nbsp;руб.</span>
                       </td>
                       <td
-                        class="user-popup__item-td user-popup__item-td--price"
+                        class="cart-popup__item-col cart-popup__item-col--price"
                       >
                         300&nbsp;руб.
                       </td>
                     </tr>
-                    <tr class="user-popup__item">
-                      <td class="user-popup__item-td user-popup__item-td">
+                    <tr class="cart-popup__item">
+                      <td class="cart-popup__item-col cart-popup__item-col">
                         <button
-                          class="user-popup__item-td user-popup__item-td--remove-button"
+                          class="cart-popup__item-col close-button"
                           type="button"
-                        >
-                          Удалить
-                        </button>
+                          aria-label="удалить товар"
+                        ></button>
                       </td>
                       <td
-                        class="user-popup__item-td user-popup__item-td--image"
+                        class="cart-popup__item-col cart-popup__item-col--image"
                       >
                         <img
                           src="./img/section-10/ice_cream2.gif"
@@ -186,36 +186,37 @@
                           alt="Фото клубничного пломбира с присыпкой из белого шоколада"
                         />
                       </td>
-                      <td class="user-popup__item-td user-popup__item-td--name">
+                      <td
+                        class="cart-popup__item-col cart-popup__item-col--name"
+                      >
                         Клубничный пломбир с&nbsp;присыпкой из&nbsp;белого
                         шоколада
                       </td>
                       <td
-                        class="user-popup__item-td user-popup__item-td--weight"
+                        class="cart-popup__item-col cart-popup__item-col--weight"
                       >
                         1,5&nbsp;кг x
                         <span>300&nbsp;руб.</span>
                       </td>
                       <td
-                        class="user-popup__item-td user-popup__item-td--price"
+                        class="cart-popup__item-col cart-popup__item-col--price"
                       >
                         450&nbsp;руб.
                       </td>
                     </tr>
                   </tbody>
                   <tfoot>
-                    <tr class="user-popup__item-td user-popup__item-td--total">
-                      <td colspan="5">
-                        <div class="user-popup__item-td--total-item">
-                          Итого 750&nbsp;руб.
-                        </div>
-                      </td>
+                    <tr class="cart-popup__item-col">
+                      <td colspan="5"></td>
                     </tr>
                   </tfoot>
                 </table>
-                <button class="button button--user-popup">
-                  Оформить заказ
-                </button>
+                <div class="cart-popup__total">
+                  <p class="cart-popup__total-price">Итого 750&nbsp;руб.</p>
+                  <button class="button button--cart-popup">
+                    Оформить заказ
+                  </button>
+                </div>
               </div>
             </li>
           </ul>
@@ -235,12 +236,13 @@
               >
             </li>
             <li class="catalog-breadcrumbs__item">
-              <a class="catalog-breadcrumbs__button" href="./catalog.html"
-                >Каталог</a
-              >
+              <a class="catalog-breadcrumbs__button">Каталог</a>
             </li>
             <li class="catalog-breadcrumbs__item">
-              <a class="catalog-breadcrumbs__button">Сливочное</a>
+              <a
+                class="catalog-breadcrumbs__button catalog-breadcrumbs__button--active"
+                >Сливочное</a
+              >
             </li>
           </ul>
         </section>

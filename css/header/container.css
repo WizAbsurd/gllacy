@@ -1,6 +1,6 @@
 .container {
   top: 70px;
-  right: 45px;
+  right: 0;
   gap: 6px;
   position: absolute;
   display: flex;

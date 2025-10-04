@@ -52,8 +52,7 @@
 }
 
 .user__item:hover .search-form,
-.user__item:hover .login-form,
-.user__item:hover .user-popup {
+.user__item:hover .login-form {
   display: block;
 }
 

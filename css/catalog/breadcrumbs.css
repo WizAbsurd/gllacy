@@ -37,3 +37,12 @@
 .catalog-breadcrumbs__button {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+.catalog-breadcrumbs__button--active {
+  border-bottom: none;
+}
+
+.catalog-breadcrumbs__button--active:hover {
+  color: #ffffff;
+  border-bottom: none;
+}

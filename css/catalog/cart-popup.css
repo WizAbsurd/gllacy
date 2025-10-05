@@ -4,7 +4,9 @@
   top: 37px;
   right: -1px;
   display: none;
+  flex-direction: column;
   width: 540px;
+  gap: 10px;
   padding-top: 24px;
   padding-right: 15px;
   padding-bottom: 10px;
@@ -16,21 +18,17 @@
 
 .user__item:hover .cart-popup {
   display: flex;
-  flex-direction: column;
 }
 
 .cart-popup__table {
   width: 510px;
+  border-bottom: 1px solid #cacac7;
 }
 
 .cart-popup__item {
   display: block;
   min-height: 40px;
   padding-bottom: 15px;
-}
-
-.cart-popup__item:nth-last-child(1) {
-  border-bottom: 1px solid #cacac7;
 }
 
 .cart-popup__item-col {
@@ -69,7 +67,6 @@
 
 .cart-popup__total-price {
   margin: 0;
-  padding-top: 10px;
   text-align: right;
   font-size: 15px;
   line-height: 18px;

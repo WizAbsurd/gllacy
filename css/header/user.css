@@ -80,8 +80,10 @@
 }
 
 .user__link--basket {
-  padding-right: 34px;
-  padding-left: 45px;
+  padding-right: 14px;
+  padding-left: 44px;
+  min-width: 117px;
+  background-repeat: no-repeat;
 }
 
 .user__link--basket::after {
@@ -97,12 +99,34 @@
   background-repeat: no-repeat;
 }
 
-.user__link--basket:hover {
-  color: #323232;
-  background-color: #f8f7f5;
-}
-
 .user__link--basket:hover:after {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  content: "";
   background-position: 50% 50%;
   background-image: url("/img/section-1/basket-full.svg");
+  background-repeat: no-repeat;
+}
+
+.user__link--basket:hover,
+.user__link--basket-active {
+  color: #000000;
+  background-color: #f8f7f4;
+}
+
+.user__link--basket-active::after {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  content: "";
+  background-position: 50% 50%;
+  background-image: url("/img/section-1/basket-full.svg");
+  background-repeat: no-repeat;
 }

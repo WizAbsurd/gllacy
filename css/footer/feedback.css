@@ -69,12 +69,6 @@
   position: absolute;
   top: 15px;
   right: 15px;
-  width: 18px;
-  height: 17px;
-  border: none;
-  content: "";
-  background-image: url("/img/section-9/x.png");
-  background-repeat: no-repeat;
 }
 
 .blackout {

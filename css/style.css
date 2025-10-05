@@ -15,6 +15,8 @@
 @import url("./main/contacts.css");
 @import url("./footer/footer.css");
 @import url("./footer/feedback.css");
+@import url("./catalog/cart-popup.css");
+@import url("./catalog/breadcrumbs.css");
 
 *,
 *::before,
@@ -53,6 +55,10 @@ a {
   border-bottom: none;
 }
 
+.underline--active {
+  border-bottom: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -79,11 +85,26 @@ a {
 }
 
 .main {
+  width: 860px;
   margin: 0;
   gap: 40px;
   display: flex;
   flex-direction: column;
+}
+
+.main-catalog {
   width: 860px;
   margin: 0;
-  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button {
+  width: 12px;
+  height: 12px;
+  border: none;
+  content: "";
+  background-image: url("/img/section-9/x.svg");
+  background-repeat: no-repeat;
+  background-color: #f8f7f4;
 }

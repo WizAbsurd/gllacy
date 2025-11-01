@@ -17,6 +17,7 @@
 @import url("./footer/feedback.css");
 @import url("./catalog/cart-popup.css");
 @import url("./catalog/breadcrumbs.css");
+@import url("./catalog/catalog-filter.css");
 
 *,
 *::before,

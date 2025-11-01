@@ -98,12 +98,12 @@
   font-weight: 500;
 }
 
-.fat-content__list {
+.fat-content {
   min-width: 415px;
 }
 
-.fat-content__list,
-.fillers__list {
+.fat-content,
+.fillers {
   margin: 0;
   padding: 0;
   gap: 23px;
@@ -118,7 +118,7 @@
 }
 
 .fat-content__item label,
-.fillers__list label {
+.fillers label {
   position: relative;
   padding-left: 25px;
 }
@@ -147,7 +147,7 @@
   background-color: #ffffff;
 }
 
-.fillers__list {
+.fillers {
   min-width: 703px;
 }
 

@@ -20,6 +20,10 @@
   background-repeat: no-repeat;
 }
 
+.product__item:hover {
+  z-index: 2;
+}
+
 .product__item:hover .product__hover {
   display: flex;
   justify-content: center;

@@ -39,13 +39,13 @@
 }
 
 .pagination-list__link--arrow-left {
-  background-image: url("./img/section-12/arrow-left.png");
+  background-image: url("../../img/section-12/arrow-left.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .pagination-list__link--arrow-right {
-  background-image: url("./img/section-12/arrow-right.png");
+  background-image: url("../../img/section-12/arrow-right.png");
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -35,7 +35,7 @@
   color: #ffffff;
   border-radius: 18px;
   background-color: rgba(255, 255, 255, 0.2);
-  background-image: url("./img/section-11/sort-icon.svg");
+  background-image: url("../../img/section-11/sort-icon.svg");
   background-repeat: no-repeat;
   background-position: right 15px center;
 }
@@ -52,7 +52,7 @@
 
 .catalog-filter__sort:hover {
   color: #323232;
-  background-image: url("./img/section-11/select-hover-icon.svg");
+  background-image: url("../../img/section-11/select-hover-icon.svg");
 }
 
 .catalog-filter__sort option {
@@ -164,7 +164,7 @@
   left: 0;
   width: 24px;
   height: 20px;
-  background-image: url("./img/section-11/checkbox-off-icon.svg");
+  background-image: url("../../img/section-11/checkbox-off-icon.svg");
   background-repeat: no-repeat;
   background-position: left;
   opacity: 0.8;
@@ -175,7 +175,7 @@
 }
 
 .fillers__input:checked + label:before {
-  background-image: url("./img/section-11/checkbox-on-icon.svg");
+  background-image: url("../../img/section-11/checkbox-on-icon.svg");
 }
 
 .catalog-filter__button {

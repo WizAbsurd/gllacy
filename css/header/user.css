@@ -39,7 +39,7 @@
   height: 32px;
   content: "";
   background-position: 50% 50%;
-  background-image: url("../img/section-1/loupe.svg");
+  background-image: url("../../img/section-1/loupe.svg");
   background-repeat: no-repeat;
 }
 
@@ -48,7 +48,7 @@
   background-color: #f8f7f4;
   border-radius: 50%;
   background-position: 50% 50%;
-  background-image: url("./img/section-1/loupe-black.svg");
+  background-image: url("../../img/section-1/loupe-black.svg");
 }
 
 .user__item:hover .search-form,
@@ -70,13 +70,13 @@
   height: 32px;
   content: "";
   background-position: 50% 50%;
-  background-image: url("/img/section-1/entrance.svg");
+  background-image: url("../../img/section-1/entrance.svg");
   background-repeat: no-repeat;
 }
 
 .user__link--login:hover:after {
   background-position: 50% 50%;
-  background-image: url("./img/section-1/entrance-black.svg");
+  background-image: url("../../img/section-1/entrance-black.svg");
 }
 
 .user__link--basket {
@@ -95,7 +95,7 @@
   height: 32px;
   content: "";
   background-position: 50% 50%;
-  background-image: url("./img/section-1/basket.svg");
+  background-image: url("../../img/section-1/basket.svg");
   background-repeat: no-repeat;
 }
 
@@ -108,7 +108,7 @@
   height: 32px;
   content: "";
   background-position: 50% 50%;
-  background-image: url("./img/section-1/basket-full.svg");
+  background-image: url("../../img/section-1/basket-full.svg");
   background-repeat: no-repeat;
 }
 
@@ -127,6 +127,6 @@
   height: 32px;
   content: "";
   background-position: 50% 50%;
-  background-image: url("./img/section-1/basket-full.svg");
+  background-image: url("../../img/section-1/basket-full.svg");
   background-repeat: no-repeat;
 }

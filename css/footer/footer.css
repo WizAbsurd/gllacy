@@ -32,19 +32,19 @@
 }
 
 .social-list__link--twitter {
-  background-image: url("./img/section-8/tw.png");
+  background-image: url("../../img/section-8/tw.png");
 }
 
 .social-list__link--instagram {
-  background-image: url("./img/section-8/inst.png");
+  background-image: url("../../img/section-8/inst.png");
 }
 
 .social-list__link--facebook {
-  background-image: url("./img/section-8/fb.png");
+  background-image: url("../../img/section-8/fb.png");
 }
 
 .social-list__link--vkontakte {
-  background-image: url("./img/section-8/vk.png");
+  background-image: url("../../img/section-8/vk.png");
 }
 
 .content-list {
@@ -92,7 +92,7 @@
   width: 15px;
   height: 13px;
   content: "";
-  background-image: url("./img/section-8/heart-icon.svg");
+  background-image: url("../../img/section-8/heart-icon.svg");
 }
 
 .copyright__description {

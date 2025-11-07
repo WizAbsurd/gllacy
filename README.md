@@ -11,5 +11,6 @@
 <tr>
   <th>
     <a href="https://wizabsurd.github.io/gllacy/index.html">Главная страница 900</a>
+    <a href="https://wizabsurd.github.io/gllacy/catalog.html">Страница каталога 900</a>
   </th>
 </tr> 

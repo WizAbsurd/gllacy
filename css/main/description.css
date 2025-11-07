@@ -15,7 +15,7 @@
   max-width: 860px;
   min-height: 372px;
   background-position: 50%;
-  background-image: url("/img/section-5/wafer-background.png");
+  background-image: url("./img/section-5/wafer-background.png");
   background-repeat: no-repeat;
   border-radius: 16px;
   color: #323232;
@@ -48,17 +48,17 @@
 }
 
 .main-description__item--ice {
-  background-image: url("/img/section-5/ice-cream.svg");
+  background-image: url("./img/section-5/ice-cream.svg");
 }
 
 .main-description__item--cow {
-  background-image: url("/img/section-5/cow.svg");
+  background-image: url("./img/section-5/cow.svg");
 }
 
 .main-description__item--eco {
-  background-image: url("/img/section-5/eco.svg");
+  background-image: url("./img/section-5/eco.svg");
 }
 
 .main-description__item--thermo {
-  background-image: url("/img/section-5/thermometer.svg");
+  background-image: url("./img/section-5/thermometer.svg");
 }

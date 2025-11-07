@@ -11,14 +11,10 @@
 <table>
 <tr>
   <th>
-    <td>
-      <a href="https://wizabsurd.github.io/gllacy/index.html">Главная страница 900</a>
-    </td>
+    <a href="https://wizabsurd.github.io/gllacy/index.html">Главная страница 900</a>
   </th>
   <th>
-    <td>
-      <a href="https://wizabsurd.github.io/gllacy/catalog.html">Страница каталога 900</a>
-    </td>
+    <a href="https://wizabsurd.github.io/gllacy/catalog.html">Страница каталога 900</a>
   </th>
 </tr> 
 </table>

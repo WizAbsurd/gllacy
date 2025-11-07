@@ -1,3 +1,7 @@
+.catalog-filter {
+  padding-bottom: 40px;
+}
+
 .catalog-filter__form {
   display: flex;
   flex-wrap: wrap;

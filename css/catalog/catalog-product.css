@@ -1,13 +1,12 @@
 .catalog-product {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  min-height: 972px;
+  gap: 80px;
   border-bottom: 1px solid #a9bbb1;
 }
 
 .pagination {
   display: flex;
   justify-content: end;
-  padding-top: 80px;
 }
 
 .pagination-list {
@@ -16,11 +15,6 @@
   gap: 1px;
   display: flex;
   list-style: none;
-}
-
-.pagination-list__item--active a {
-  color: #000000;
-  background-color: #ffffff;
 }
 
 .pagination-list__link {
@@ -34,13 +28,14 @@
   border-radius: 16px;
 }
 
-.pagination-list__link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
+.pagination-list__link--active,
 .pagination-list__link:active {
   color: #000000;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #ffffff;
+}
+
+.pagination-list__link:not(.pagination-list__link--active):not(:active):hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .pagination-list__link--arrow-left {
